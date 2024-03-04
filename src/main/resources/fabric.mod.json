@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "dragonshoardwa",
+  "version": "${version}",
+  "name": "DragonsHoardWA",
+  "description": "Desc",
+  "authors": [
+    "MeetmyWagon23"
+  ],
+  "contact": {
+    "website": "Website",
+    "repo": "This is a repository link"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/dragonshoardwa/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "me.meetmywagon23.dragonshoardwa.data.DragonsHoardWADataGenerator"
+    ],
+    "client": [
+      "me.meetmywagon23.dragonshoardwa.client.DragonsHoardWAClient"
+    ],
+    "main": [
+      "me.meetmywagon23.dragonshoardwa.DragonsHoardWA"
+    ]
+  },
+  "mixins": [
+    "dragonshoardwa.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
