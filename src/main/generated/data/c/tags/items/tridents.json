@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "dragonshoardwa:adamantine_trident",
+    "dragonshoardwa:bone_trident",
+    "dragonshoardwa:bronze_trident",
+    "dragonshoardwa:cold_iron_trident",
+    "dragonshoardwa:copper_trident",
+    "dragonshoardwa:dark_steel_trident",
+    "dragonshoardwa:diamond_trident",
+    "dragonshoardwa:dragon_bone_trident",
+    "dragonshoardwa:elven_steel_trident",
+    "dragonshoardwa:golden_trident",
+    "dragonshoardwa:infernal_iron_trident",
+    "dragonshoardwa:iron_trident",
+    "dragonshoardwa:mithril_trident",
+    "dragonshoardwa:netherite_trident",
+    "dragonshoardwa:palladium_trident",
+    "dragonshoardwa:platinum_trident",
+    "dragonshoardwa:shadow_adamantine_trident",
+    "dragonshoardwa:silver_trident",
+    "dragonshoardwa:steel_trident",
+    "dragonshoardwa:stone_trident",
+    "dragonshoardwa:tungsten_trident",
+    "dragonshoardwa:wooden_trident"
+  ]
+}

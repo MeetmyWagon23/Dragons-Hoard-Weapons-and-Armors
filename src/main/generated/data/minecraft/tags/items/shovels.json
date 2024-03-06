@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "dragonshoardwa:adamantine_dragon_bone_shovel",
+    "dragonshoardwa:adamantine_shovel",
+    "dragonshoardwa:bone_shovel",
+    "dragonshoardwa:bronze_shovel",
+    "dragonshoardwa:cold_iron_shovel",
+    "dragonshoardwa:copper_shovel",
+    "dragonshoardwa:dark_steel_shovel",
+    "dragonshoardwa:dragon_bone_shovel",
+    "dragonshoardwa:elven_steel_shovel",
+    "dragonshoardwa:infernal_iron_shovel",
+    "dragonshoardwa:mithril_shovel",
+    "dragonshoardwa:palladium_shovel",
+    "dragonshoardwa:platinum_shovel",
+    "dragonshoardwa:shadow_adamantine_dragon_bone_shovel",
+    "dragonshoardwa:shadow_adamantine_shovel",
+    "dragonshoardwa:silver_shovel",
+    "dragonshoardwa:steel_shovel",
+    "dragonshoardwa:tungsten_carbide_shovel"
+  ]
+}

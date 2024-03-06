@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dragonshoardwa:item/light_armor_mesh"
+  }
+}

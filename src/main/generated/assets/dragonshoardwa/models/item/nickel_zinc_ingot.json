@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dragonshoardwa:item/nickel_zinc_ingot"
+  }
+}

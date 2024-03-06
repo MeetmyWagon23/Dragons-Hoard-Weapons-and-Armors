@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "dragonshoardwa:adamantine_pike",
+    "dragonshoardwa:bone_pike",
+    "dragonshoardwa:bronze_pike",
+    "dragonshoardwa:cold_iron_pike",
+    "dragonshoardwa:copper_pike",
+    "dragonshoardwa:dark_steel_pike",
+    "dragonshoardwa:diamond_pike",
+    "dragonshoardwa:dragon_bone_pike",
+    "dragonshoardwa:elven_steel_pike",
+    "dragonshoardwa:golden_pike",
+    "dragonshoardwa:infernal_iron_pike",
+    "dragonshoardwa:iron_pike",
+    "dragonshoardwa:mithril_pike",
+    "dragonshoardwa:netherite_pike",
+    "dragonshoardwa:palladium_pike",
+    "dragonshoardwa:platinum_pike",
+    "dragonshoardwa:shadow_adamantine_pike",
+    "dragonshoardwa:silver_pike",
+    "dragonshoardwa:steel_pike",
+    "dragonshoardwa:stone_pike",
+    "dragonshoardwa:tungsten_pike",
+    "dragonshoardwa:wooden_pike"
+  ]
+}

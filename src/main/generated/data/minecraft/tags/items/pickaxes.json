@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "dragonshoardwa:adamantine_dragon_bone_pickaxe",
+    "dragonshoardwa:adamantine_pickaxe",
+    "dragonshoardwa:bone_pickaxe",
+    "dragonshoardwa:bronze_pickaxe",
+    "dragonshoardwa:cold_iron_pickaxe",
+    "dragonshoardwa:copper_pickaxe",
+    "dragonshoardwa:dark_steel_pickaxe",
+    "dragonshoardwa:dragon_bone_pickaxe",
+    "dragonshoardwa:elven_steel_pickaxe",
+    "dragonshoardwa:infernal_iron_pickaxe",
+    "dragonshoardwa:mithril_pickaxe",
+    "dragonshoardwa:palladium_pickaxe",
+    "dragonshoardwa:platinum_pickaxe",
+    "dragonshoardwa:shadow_adamantine_dragon_bone_pickaxe",
+    "dragonshoardwa:shadow_adamantine_pickaxe",
+    "dragonshoardwa:silver_pickaxe",
+    "dragonshoardwa:steel_pickaxe",
+    "dragonshoardwa:tungsten_carbide_pickaxe"
+  ]
+}

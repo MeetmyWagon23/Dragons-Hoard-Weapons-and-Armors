@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "dragonshoardwa:adamantine_gauntlet",
+    "dragonshoardwa:bronze_gauntlet",
+    "dragonshoardwa:cold_iron_gauntlet",
+    "dragonshoardwa:copper_gauntlet",
+    "dragonshoardwa:dark_steel_gauntlet",
+    "dragonshoardwa:diamond_gauntlet",
+    "dragonshoardwa:elven_steel_gauntlet",
+    "dragonshoardwa:golden_gauntlet",
+    "dragonshoardwa:infernal_iron_gauntlet",
+    "dragonshoardwa:iron_gauntlet",
+    "dragonshoardwa:mithril_gauntlet",
+    "dragonshoardwa:netherite_gauntlet",
+    "dragonshoardwa:palladium_gauntlet",
+    "dragonshoardwa:platinum_gauntlet",
+    "dragonshoardwa:shadow_adamantine_gauntlet",
+    "dragonshoardwa:silver_gauntlet",
+    "dragonshoardwa:steel_gauntlet",
+    "dragonshoardwa:tungsten_gauntlet"
+  ]
+}

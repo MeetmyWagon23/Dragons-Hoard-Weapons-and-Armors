@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "dragonshoardwa:adamantine_dagger",
+    "dragonshoardwa:bone_dagger",
+    "dragonshoardwa:cold_iron_dagger",
+    "dragonshoardwa:copper_dagger",
+    "dragonshoardwa:dark_steel_dagger",
+    "dragonshoardwa:diamond_dagger",
+    "dragonshoardwa:dragon_bone_dagger",
+    "dragonshoardwa:elven_steel_dagger",
+    "dragonshoardwa:golden_dagger",
+    "dragonshoardwa:infernal_iron_dagger",
+    "dragonshoardwa:iron_dagger",
+    "dragonshoardwa:mithril_dagger",
+    "dragonshoardwa:netherite_dagger",
+    "dragonshoardwa:palladium_dagger",
+    "dragonshoardwa:platinum_dagger",
+    "dragonshoardwa:shadow_adamantine_dagger",
+    "dragonshoardwa:silver_dagger",
+    "dragonshoardwa:steel_dagger",
+    "dragonshoardwa:stone_dagger",
+    "dragonshoardwa:tungsten_dagger",
+    "dragonshoardwa:wooden_dagger"
+  ]
+}

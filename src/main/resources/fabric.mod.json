@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "me.meetmywagon23.dragonshoardwa.data.DragonsHoardWADataGenerator"
+      "me.meetmywagon23.dragonshoardwa.datagen.DragonsHoardWADataGenerator"
     ],
     "client": [
       "me.meetmywagon23.dragonshoardwa.client.DragonsHoardWAClient"

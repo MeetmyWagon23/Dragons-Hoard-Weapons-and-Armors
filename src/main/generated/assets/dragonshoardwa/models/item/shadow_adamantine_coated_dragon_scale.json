@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dragonshoardwa:item/shadow_adamantine_coated_dragon_scale"
+  }
+}
