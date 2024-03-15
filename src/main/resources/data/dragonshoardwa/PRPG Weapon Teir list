@@ -1,0 +1,66 @@
+    Greatsword              -3.3f
+dagger                      -1.5f
+    spear                   -2.7f
+    rapier                  -1.8f
+    glaive                  -2.0f
+    scimitar                -2.4f
+    quarterstaff            -2.6f
+tridents                -
+    battleaxe               -2.8f
+    warhammer               -3.2f
+    sickle                  -2.1f
+    scyth                   -2.6f
+    sword                   -2.4f
+    mace                    -2.8f
+    falchions               -2.3f
+    ceastus/gauntlet/claw   -1.5f
+
+
+
+Order of damage starting from Top to Bottom, Wood starts at a higher damage if it is higher on this list
+then proceeds to get more damage as the material increases by 1 damage at a time. god damn i hope this makes
+sense to anyone else but me xD
+
+greatsword                  |dmg for wood 6
+warhammer                   |dmg for wood 6
+battleaxe                   |dmg for wood 6
+mace                        |dmg for wood 5
+spear                       |dmg for wood 5
+scythe                      |dmg for wood 5
+quarterstaff                |dmg for wood 4
+scimitar                    |dmg for wood 4
+sword                       |dmg for wood 4
+falchion                    |dmg for wood 3
+sickle                      |dmg for wood 3
+glaive                      |dmg for wood 3
+rapier                      |dmg for wood 2
+ceastus/gauntlet/glaw       |dmg for wood 2
+dagger -1.5f                |dmg for wood 2
+
+Look at scythes to see where materials gain more damage as they get stronger.
+      For Weapons                            What has been textured? This will tell you.
+0        wood                               :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+1        stone                              :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+0        gold                               :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+2        silver                             :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+2        copper                             :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+2        bronze                             :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+2        platinum                           :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+3        bone                               :, , ,
+3        iorn                               :Pick, Shovel, Axe, Hoe, Fal, Rap, scy,
+3        infernal iron                      :, , , ,
+3        cold iron                          :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+4        steel                              :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+4        diamond                            :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+4        elvensteel                         :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+4        darksteel                          :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+5        netherite                          :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+                        Materials From here DOWN get a SET Unique styling & animation.
+5        dragon bone                        :
+6        palladium                          :
+7        tungsten-carbide                   :
+8        mythril                            :
+9        adamantine                         :
+9        shadow adamantine                  :
+10       dragon adamantine                  :
+10       shadow dragon adamantine           :

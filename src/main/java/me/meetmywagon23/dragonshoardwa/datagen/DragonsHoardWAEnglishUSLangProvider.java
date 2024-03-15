@@ -51,9 +51,9 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(ItemsRegistry.RAW_ALUMINUM, "Raw Aluminum");
         translationBuilder.add(ItemsRegistry.ALUMINUM_NUGGET, "Aluminum Nugget");
         translationBuilder.add(ItemsRegistry.ALUMINUM_INGOT, "Aluminum Ingot");
-        translationBuilder.add(ItemsRegistry.RAW_BRASS, "Raw Brass");
-        translationBuilder.add(ItemsRegistry.BRASS_NUGGET, "Brass Nugget");
-        translationBuilder.add(ItemsRegistry.BRASS_INGOT, "Brass Ingot");
+        //translationBuilder.add(ItemsRegistry.RAW_BRASS, "Raw Brass");
+        //translationBuilder.add(ItemsRegistry.BRASS_NUGGET, "Brass Nugget");
+        //translationBuilder.add(ItemsRegistry.BRASS_INGOT, "Brass Ingot");
         translationBuilder.add(ItemsRegistry.RAW_BRONZE, "Raw Bronze");
         translationBuilder.add(ItemsRegistry.BRONZE_NUGGET, "Bronze Nugget");
         translationBuilder.add(ItemsRegistry.BRONZE_INGOT, "Bronze Ingot");
@@ -123,7 +123,7 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(ItemsRegistry.ADAMANTINE_DUST, "Adamantine Dust");
         translationBuilder.add(ItemsRegistry.ALUMINUM_DUST, "Aluminum Dust");
         translationBuilder.add(ItemsRegistry.ARANDUR_DUST, "Arandur Dust");
-        translationBuilder.add(ItemsRegistry.BRASS_DUST, "Brass Dust");
+        //translationBuilder.add(ItemsRegistry.BRASS_DUST, "Brass Dust");
         translationBuilder.add(ItemsRegistry.BRONZE_DUST, "Bronze Dust");
         translationBuilder.add(ItemsRegistry.COAL_DUST, "Coal Dust");
         translationBuilder.add(ItemsRegistry.COLD_IRON_DUST, "Cold Iron Dust");
@@ -235,34 +235,6 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(WeaponsRegistry.BONE_SWORD, "Bone Sword");
         translationBuilder.add(WeaponsRegistry.BONE_TRIDENT, "Bone Trident");
         translationBuilder.add(WeaponsRegistry.BONE_WARHAMMER, "Bone Warhammer");
-
-        // translationBuilder.add(ToolsRegistry.BRASS_PICKAXE, "Brass Pickaxe");
-        // translationBuilder.add(ToolsRegistry.BRASS_AXE, "Brass Axe");
-        // translationBuilder.add(ToolsRegistry.BRASS_SHOVEL, "Brass Shovel");
-        // translationBuilder.add(ToolsRegistry.BRASS_HOE, "Brass Hoe");
-        // translationBuilder.add(WeaponsRegistry.BRASS_BATTLEAXE, "Brass Battleaxe");
-        // translationBuilder.add(WeaponsRegistry.BRASS_CAESTUS, "Brass Caestus");
-        translationBuilder.add(WeaponsRegistry.BRASS_CLAYMORE, "Brass Claymore");
-        translationBuilder.add(WeaponsRegistry.BRASS_DAGGER, "Brass Dagger");
-        // translationBuilder.add(WeaponsRegistry.BRASS_FALCHION, "Brass Falchion");
-        // translationBuilder.add(WeaponsRegistry.BRASS_GAUNTLET, "Brass Gauntlet");
-        // translationBuilder.add(WeaponsRegistry.BRASS_GLAIVE, "Brass Glaive");
-        // translationBuilder.add(WeaponsRegistry.BRASS_GREATSWORD, "Brass Greatsword");
-        translationBuilder.add(WeaponsRegistry.BRASS_HALBERD, "Brass Halberd");
-        translationBuilder.add(WeaponsRegistry.BRASS_HANDAXE, "Brass Handaxe");
-        translationBuilder.add(WeaponsRegistry.BRASS_LONG_SPEAR, "Brass Long Spear");
-        translationBuilder.add(WeaponsRegistry.BRASS_LONGSWORD, "Brass Long Sword");
-        // translationBuilder.add(WeaponsRegistry.BRASS_MACE, "Brass Mace");
-        // translationBuilder.add(WeaponsRegistry.BRASS_PIKE, "Brass Pike");
-        // translationBuilder.add(WeaponsRegistry.BRASS_QUARTERSTAFF, "Brass Quarterstaff");
-        // translationBuilder.add(WeaponsRegistry.BRASS_RAPIER, "Brass Rapier");
-        // translationBuilder.add(WeaponsRegistry.BRASS_SCIMITAR, "Brass Scimitar");
-        // translationBuilder.add(WeaponsRegistry.BRASS_SCYTHE, "Brass Scythe");
-        // translationBuilder.add(WeaponsRegistry.BRASS_SICKLE, "Brass Sickle");
-        // translationBuilder.add(WeaponsRegistry.BRASS_SPEAR, "Brass Spear");
-        // translationBuilder.add(WeaponsRegistry.BRASS_SWORD, "Brass Sword");
-        // translationBuilder.add(WeaponsRegistry.BRASS_TRIDENT, "Brass Trident");
-        // translationBuilder.add(WeaponsRegistry.BRASS_WARHAMMER, "Brass Warhammer");
 
         translationBuilder.add(ToolsRegistry.BRONZE_PICKAXE, "Bronze Pickaxe");
         translationBuilder.add(ToolsRegistry.BRONZE_AXE, "Bronze Axe");

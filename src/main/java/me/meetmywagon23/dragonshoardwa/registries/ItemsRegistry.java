@@ -60,9 +60,9 @@ public class ItemsRegistry {
     public static final Item ALUMINUM_INGOT = registerItems("aluminum_ingot", new Item(new Item.Settings()));
 
     // Brass (Copper + Zinc) || Chronos Note: Brass is EXTREMELY rare, naturally; unsure if you plan to spawn as an ore. Noticed that there are no Zinc items.
-    public static final Item RAW_BRASS = registerItems("raw_brass", new Item(new Item.Settings()));
-    public static final Item BRASS_NUGGET = registerItems("brass_nugget",  new Item(new Item.Settings()));
-    public static final Item BRASS_INGOT = registerItems("brass_ingot", new Item(new Item.Settings()));
+    //public static final Item RAW_BRASS = registerItems("raw_brass", new Item(new Item.Settings()));
+    //public static final Item BRASS_NUGGET = registerItems("brass_nugget",  new Item(new Item.Settings()));
+    //public static final Item BRASS_INGOT = registerItems("brass_ingot", new Item(new Item.Settings()));
 
     // Bronze (Copper + Tin) || Chronos Note: Bronze is EXTREMELY rare, naturally; unsure if you plan to spawn as an ore.
     public static final Item RAW_BRONZE = registerItems("raw_bronze", new Item(new Item.Settings()));
@@ -127,7 +127,7 @@ public class ItemsRegistry {
     public static final Item PLATINUM_NUGGET = registerItems("platinum_nugget", new Item(new Item.Settings()));
     public static final Item PLATINUM_INGOT = registerItems("platinum_ingot", new Item(new Item.Settings()));
 
-    // Pure Carbon - Found in small (~8x8 craters in deserts, as a "snow" layer; obtained with a shovel) Carbon + (Something was missing in the original note)
+    // Pure Carbon - Found in small (~8x8 craters in deserts, as a "snow" layer; obtained with a shovel) Carbon + Tungsten
     public static final Item PURE_CARBON = registerItems("pure_carbon", new Item(new Item.Settings().rarity(Rarity.RARE)));
 
     // Shadow Adamantine - Pristine armor may have an "Underglow" (texture related) to the visual effects + the stat bonuses.
@@ -162,7 +162,7 @@ public class ItemsRegistry {
     public static final Item TITANIUM_NUGGET = registerItems("titanium_nugget", new Item(new Item.Settings().rarity(Rarity.RARE)));
     public static final Item TITANIUM_INGOT = registerItems("titanium_ingot", new Item(new Item.Settings().rarity(Rarity.RARE)));
 
-    // Tungsten || Chronos Note: Tungsten Carbide does not exist naturally; unsure if you plan to spawn as an ore.
+    // Tungsten || Used in combination with Carbon to make Tungsten Carbide.
     public static final Item RAW_TUNGSTEN = registerItems("raw_tungsten", new Item(new Item.Settings().rarity(Rarity.RARE)));
     public static final Item TUNGSTEN_CARBIDE_NUGGET = registerItems("tungsten_carbide_nugget", new Item(new Item.Settings().rarity(Rarity.RARE)));
     public static final Item TUNGSTEN_CARBIDE_INGOT = registerItems("tungsten_carbide_ingot", new Item(new Item.Settings().rarity(Rarity.RARE)));

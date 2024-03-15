@@ -203,13 +203,13 @@ public enum DragonsHoardWAToolMaterials implements ToolMaterial{
             4.5f,
             221, 
             ItemsRegistry.BRONZE_INGOT),
-    BRASS(
-            0f,
-            4,
-            1,
-            4.5f,
-            221,
-            ItemsRegistry.BRASS_INGOT),
+    //BRASS(
+    //        0f,
+    //        4,
+    //        1,
+    //        4.5f,
+    //        221,
+    //        ItemsRegistry.BRASS_INGOT),
     PLATINUM(
             0f,
             18,

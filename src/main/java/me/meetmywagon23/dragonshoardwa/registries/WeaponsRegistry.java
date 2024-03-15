@@ -18,7 +18,7 @@ public class WeaponsRegistry {
     public static final TridentItem GOLDEN_DAGGER = registerTridentItems("golden_dagger", new TridentItem((new Item.Settings()).maxDamage(32)));
     public static final TridentItem SILVER_DAGGER = registerTridentItems("silver_dagger", new TridentItem((new Item.Settings()).maxDamage(161)));
     public static final TridentItem COPPER_DAGGER = registerTridentItems("copper_dagger", new TridentItem((new Item.Settings()).maxDamage(181)));
-    public static final TridentItem BRASS_DAGGER = registerTridentItems("brass_dagger", new TridentItem((new Item.Settings()).maxDamage(201)));
+    public static final TridentItem BRONZE_DAGGER = registerTridentItems("bronze_dagger", new TridentItem((new Item.Settings()).maxDamage(201)));
     public static final TridentItem PLATINUM_DAGGER = registerTridentItems("platinum_dagger", new TridentItem((new Item.Settings()).maxDamage(241)));
     public static final TridentItem BONE_DAGGER = registerTridentItems("bone_dagger", new TridentItem((new Item.Settings()).maxDamage(32)));
     public static final TridentItem IRON_DAGGER = registerTridentItems("iron_dagger", new TridentItem((new Item.Settings()).maxDamage(250)));
@@ -100,7 +100,7 @@ public class WeaponsRegistry {
     public static final AxeItem GOLDEN_HANDAXE = registerAxeItems("golden_handaxe", new AxeItem(ToolMaterials.GOLD, 4, -3.2f, new Item.Settings()));
     public static final AxeItem SILVER_HANDAXE = registerAxeItems("silver_handaxe", new AxeItem(DragonsHoardWAToolMaterials.SILVER, 4, -3.2f, new Item.Settings()));
     public static final AxeItem COPPER_HANDAXE = registerAxeItems("copper_handaxe", new AxeItem(DragonsHoardWAToolMaterials.COPPER, 4, -3.2f, new Item.Settings()));
-    public static final AxeItem BRASS_HANDAXE = registerAxeItems("brass_handaxe", new AxeItem(DragonsHoardWAToolMaterials.BRASS, 4, -3.2f, new Item.Settings()));
+    //public static final AxeItem BRASS_HANDAXE = registerAxeItems("brass_handaxe", new AxeItem(DragonsHoardWAToolMaterials.BRASS, 4, -3.2f, new Item.Settings()));
     public static final AxeItem BRONZE_HANDAXE = registerAxeItems("bronze_handaxe", new AxeItem(DragonsHoardWAToolMaterials.BRONZE, 4, -3.2f, new Item.Settings()));
     public static final AxeItem PLATINUM_HANDAXE = registerAxeItems("platinum_handaxe", new AxeItem(DragonsHoardWAToolMaterials.PLATINUM, 4, -3.2f, new Item.Settings()));
     public static final AxeItem BONE_HANDAXE = registerAxeItems("bone_handaxe", new AxeItem(DragonsHoardWAToolMaterials.BONE, 4, -3.2f, new Item.Settings()));
@@ -129,7 +129,7 @@ public class WeaponsRegistry {
     public static final SwordItem GOLDEN_LONGSWORD = registerSwordItems("golden_longsword", new SwordItem(ToolMaterials.GOLD, 4, -3.0f, new Item.Settings()));
     public static final SwordItem SILVER_LONGSWORD = registerSwordItems("silver_longsword", new SwordItem(DragonsHoardWAToolMaterials.SILVER, 4, -3.0f, new Item.Settings()));
     public static final SwordItem COPPER_LONGSWORD = registerSwordItems("copper_longsword", new SwordItem(DragonsHoardWAToolMaterials.COPPER, 4, -3.0f, new Item.Settings()));
-    public static final SwordItem BRASS_LONGSWORD = registerSwordItems("brass_longsword", new SwordItem(DragonsHoardWAToolMaterials.BRASS, 4, -3.0f, new Item.Settings()));
+    //public static final SwordItem BRASS_LONGSWORD = registerSwordItems("brass_longsword", new SwordItem(DragonsHoardWAToolMaterials.BRASS, 4, -3.0f, new Item.Settings()));
     public static final SwordItem BRONZE_LONGSWORD = registerSwordItems("bronze_longsword", new SwordItem(DragonsHoardWAToolMaterials.BRONZE, 4, -3.0f, new Item.Settings()));
     public static final SwordItem PLATINUM_LONGSWORD = registerSwordItems("platinum_longsword", new SwordItem(DragonsHoardWAToolMaterials.PLATINUM, 4, -3.0f, new Item.Settings()));
     public static final SwordItem BONE_LONGSWORD = registerSwordItems("bone_longsword", new SwordItem(DragonsHoardWAToolMaterials.BONE, 4, -3.0f, new Item.Settings()));
@@ -186,7 +186,7 @@ public class WeaponsRegistry {
     public static final SwordItem GOLDEN_CLAYMORE = registerSwordItems("golden_claymore", new SwordItem(ToolMaterials.GOLD, 4, -3.2f, new Item.Settings()));
     public static final SwordItem SILVER_CLAYMORE = registerSwordItems("silver_claymore", new SwordItem(DragonsHoardWAToolMaterials.SILVER, 4, -3.2f, new Item.Settings()));
     public static final SwordItem COPPER_CLAYMORE = registerSwordItems("copper_claymore", new SwordItem(DragonsHoardWAToolMaterials.COPPER, 4, -3.2f, new Item.Settings()));
-    public static final SwordItem BRASS_CLAYMORE = registerSwordItems("brass_claymore", new SwordItem(DragonsHoardWAToolMaterials.BRASS, 4, -3.2f, new Item.Settings()));
+    //public static final SwordItem BRASS_CLAYMORE = registerSwordItems("brass_claymore", new SwordItem(DragonsHoardWAToolMaterials.BRASS, 4, -3.2f, new Item.Settings()));
     public static final SwordItem BRONZE_CLAYMORE = registerSwordItems("bronze_claymore", new SwordItem(DragonsHoardWAToolMaterials.BRONZE, 4, -3.2f, new Item.Settings()));
     public static final SwordItem PLATINUM_CLAYMORE = registerSwordItems("platinum_claymore", new SwordItem(DragonsHoardWAToolMaterials.PLATINUM, 4, -3.2f, new Item.Settings()));
     public static final SwordItem BONE_CLAYMORE = registerSwordItems("bone_claymore", new SwordItem(DragonsHoardWAToolMaterials.BONE, 4, -3.2f, new Item.Settings()));
@@ -299,7 +299,7 @@ public class WeaponsRegistry {
     public static final SwordItem GOLDEN_HALBERD = registerSwordItems("golden_halberd", new SwordItem(ToolMaterials.GOLD, 4, -3.0f, new Item.Settings()));
     public static final SwordItem SILVER_HALBERD = registerSwordItems("silver_halberd", new SwordItem(DragonsHoardWAToolMaterials.SILVER, 4, -3.0f, new Item.Settings()));
     public static final SwordItem COPPER_HALBERD = registerSwordItems("copper_halberd", new SwordItem(DragonsHoardWAToolMaterials.COPPER, 4, -3.0f, new Item.Settings()));
-    public static final SwordItem BRASS_HALBERD = registerSwordItems("brass_halberd", new SwordItem(DragonsHoardWAToolMaterials.BRASS, 4, -3.0f, new Item.Settings()));
+    //public static final SwordItem BRASS_HALBERD = registerSwordItems("brass_halberd", new SwordItem(DragonsHoardWAToolMaterials.BRASS, 4, -3.0f, new Item.Settings()));
     public static final SwordItem BRONZE_HALBERD = registerSwordItems("bronze_halberd", new SwordItem(DragonsHoardWAToolMaterials.BRONZE, 4, -3.0f, new Item.Settings()));
     public static final SwordItem PLATINUM_HALBERD = registerSwordItems("platinum_halberd", new SwordItem(DragonsHoardWAToolMaterials.PLATINUM, 4, -3.0f, new Item.Settings()));
     public static final SwordItem BONE_HALBERD = registerSwordItems("bone_halberd", new SwordItem(DragonsHoardWAToolMaterials.BONE, 4, -3.0f, new Item.Settings()));
@@ -608,7 +608,7 @@ public class WeaponsRegistry {
     public static final SwordItem GOLDEN_LONG_SPEAR = registerSwordItems("golden_long_spear", new SwordItem(ToolMaterials.GOLD, 4, -3.0f, new Item.Settings()));
     public static final SwordItem SILVER_LONG_SPEAR = registerSwordItems("silver_long_spear", new SwordItem(DragonsHoardWAToolMaterials.SILVER, 4, -3.0f, new Item.Settings()));
     public static final SwordItem COPPER_LONG_SPEAR = registerSwordItems("copper_long_spear", new SwordItem(DragonsHoardWAToolMaterials.COPPER, 4, -3.0f, new Item.Settings()));
-    public static final SwordItem BRASS_LONG_SPEAR = registerSwordItems("brass_long_spear", new SwordItem(DragonsHoardWAToolMaterials.BRASS, 4, -3.0f, new Item.Settings()));
+    //public static final SwordItem BRASS_LONG_SPEAR = registerSwordItems("brass_long_spear", new SwordItem(DragonsHoardWAToolMaterials.BRASS, 4, -3.0f, new Item.Settings()));
     public static final SwordItem BRONZE_LONG_SPEAR = registerSwordItems("bronze_long_spear", new SwordItem(DragonsHoardWAToolMaterials.BRONZE, 4, -3.0f, new Item.Settings()));
     public static final SwordItem PLATINUM_LONG_SPEAR = registerSwordItems("platinum_long_spear", new SwordItem(DragonsHoardWAToolMaterials.PLATINUM, 4, -3.0f, new Item.Settings()));
     public static final SwordItem BONE_LONG_SPEAR = registerSwordItems("bone_long_spear", new SwordItem(DragonsHoardWAToolMaterials.BONE, 4, -3.0f, new Item.Settings()));

@@ -176,22 +176,22 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             0.0f,
             0.0f,
             Items.COPPER_INGOT
-    ),
-    BRASS(
-            "brass",
-            "brass_armor",
-            11,
-            new int[]{
-                    2,
-                    2,
-                    2,
-                    2
-            },
-            5,
-            SoundEvents.ITEM_ARMOR_EQUIP_IRON,
-            1.5f,
-            0.4f,
-            ItemsRegistry.BRASS_INGOT
+    //),
+    //BRASS(
+    //        "brass",
+    //        "brass_armor",
+    //        11,
+    //        new int[]{
+    //                2,
+    //                2,
+    //                2,
+    //                2
+    //        },
+    //        5,
+    //        SoundEvents.ITEM_ARMOR_EQUIP_IRON,
+    //        1.5f,
+    //        0.4f,
+    //        ItemsRegistry.BRASS_INGOT
     ),
     BRONZE(
             "bronze",

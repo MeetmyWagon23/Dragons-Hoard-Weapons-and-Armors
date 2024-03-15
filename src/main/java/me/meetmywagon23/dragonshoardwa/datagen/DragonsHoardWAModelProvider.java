@@ -53,9 +53,9 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ItemsRegistry.RAW_ALUMINUM, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.ALUMINUM_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.ALUMINUM_INGOT, Models.GENERATED);
-        itemModelGenerator.register(ItemsRegistry.RAW_BRASS, Models.GENERATED);
-        itemModelGenerator.register(ItemsRegistry.BRASS_NUGGET, Models.GENERATED);
-        itemModelGenerator.register(ItemsRegistry.BRASS_INGOT, Models.GENERATED);
+        //itemModelGenerator.register(ItemsRegistry.RAW_BRASS, Models.GENERATED);
+        //itemModelGenerator.register(ItemsRegistry.BRASS_NUGGET, Models.GENERATED);
+        //itemModelGenerator.register(ItemsRegistry.BRASS_INGOT, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.RAW_BRONZE, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.BRONZE_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.BRONZE_INGOT, Models.GENERATED);
