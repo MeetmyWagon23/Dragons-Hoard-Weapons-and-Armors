@@ -129,22 +129,22 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             0.0f,
             ItemsRegistry.ALUMINUM_INGOT
     ),
-    ELECTRUM(
-            "electrum",
-            "electrum_armor",
-            9,
-            new int[]{
-                    2,
-                    2,
-                    3,
-                    2
-            },
-            20,
-            SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
-            0.0f,
-            0.0f,
-            ItemsRegistry.ELECTRUM_INGOT
-    ),
+    // ELECTRUM(
+    //         "electrum",
+    //         "electrum_armor",
+    //         9,
+    //         new int[]{
+    //                 2,
+    //                 2,
+    //                 3,
+    //                 2
+    //         },
+    //         20,
+    //         SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
+    //         0.0f,
+    //         0.0f,
+    //         ItemsRegistry.ELECTRUM_INGOT
+    // ),
     COPPER(
             "copper",
             "copper_armor",
@@ -176,23 +176,23 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             0.0f,
             0.0f,
             Items.COPPER_INGOT
-    //),
-    //BRASS(              commented out for now, in the event i need to add this back in at some point.
-    //        "brass",
-    //        "brass_armor",
-    //        11,
-    //        new int[]{
-    //                2,
-    //                2,
-    //                2,
-    //                2
-    //        },
-    //        5,
-    //        SoundEvents.ITEM_ARMOR_EQUIP_IRON,
-    //        1.5f,
-    //        0.4f,
-    //        ItemsRegistry.BRASS_INGOT
     ),
+    // BRASS(              commented out for now, in the event i need to add this back in at some point.
+    //         "brass",
+    //         "brass_armor",
+    //         11,
+    //         new int[]{
+    //                 2,
+    //                 2,
+    //                 2,
+    //                 2
+    //         },
+    //         5,
+    //         SoundEvents.ITEM_ARMOR_EQUIP_IRON,
+    //         1.5f,
+    //         0.4f,
+    //         ItemsRegistry.BRASS_INGOT
+    // ),
     BRONZE(
             "bronze",
             "bronze_armor",

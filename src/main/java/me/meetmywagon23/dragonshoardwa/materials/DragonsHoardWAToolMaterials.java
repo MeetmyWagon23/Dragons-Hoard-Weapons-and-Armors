@@ -173,9 +173,17 @@ public enum DragonsHoardWAToolMaterials implements ToolMaterial{
      * IRON = 2;
      * DIAMOND = 3;
      * NETHERITE = 4;
+     *     WOOD(MiningLevels.WOOD, 59, 2.0f, 0.0f, 15,
+    STONE, 131, 4.0f, 1.0f, 5,
+    IRON, 250, 6.0f, 2.0f, 14,
+    DIAMOND, 1561, 8.0f, 3.0f, 10,
+    GOLD, 32, 12.0f, 0.0f, 22,
+    NETHERITE, 2031, 9.0f, 4.0f, 15,
+     *
      */
-
+    // Still not sure if im using Flesh, but im leaving it here just in case.
     FLESH(
+
             0f,
             1,
             1,
@@ -203,13 +211,6 @@ public enum DragonsHoardWAToolMaterials implements ToolMaterial{
             4.5f,
             221, 
             ItemsRegistry.BRONZE_INGOT),
-    //BRASS(
-    //        0f,
-    //        4,
-    //        1,
-    //        4.5f,
-    //        221,
-    //        ItemsRegistry.BRASS_INGOT),
     PLATINUM(
             0f,
             18,
@@ -296,15 +297,6 @@ public enum DragonsHoardWAToolMaterials implements ToolMaterial{
             11f,
             2031,
             ItemsRegistry.MITHRIL_INGOT),
-
-    // Itanium needs to be removed, Was a cool idea and cool sounding ore (Dead never-launched Intel Product)
-    ITANIUM (
-            0f,
-            16,
-            4,
-            12f,
-            3891, 
-            ItemsRegistry.ITANIUM_INGOT),
     ADAMANTINE(
             0f,
             16,
