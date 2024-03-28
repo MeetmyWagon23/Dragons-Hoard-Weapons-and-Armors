@@ -1,66 +1,89 @@
-    Greatsword              -3.3f
-dagger                      -1.5f
-    spear                   -2.7f
-    rapier                  -1.8f
-    glaive                  -2.0f
-    scimitar                -2.4f
-    quarterstaff            -2.6f
-tridents                -
-    battleaxe               -2.8f
-    warhammer               -3.2f
-    sickle                  -2.1f
-    scyth                   -2.6f
-    sword                   -2.4f
-    mace                    -2.8f
-    falchions               -2.3f
-    ceastus/gauntlet/claw   -1.5f
+
+    Weapons are also listed from High to Low Speed, instead of Alphabetically
+ Weapon
+ Pike                    Speed | -3.6f | dmg for wood Weapon: 5  (In Game Wood Damage = 6)
+ greatsword              Speed | -3.3f | dmg for wood Weapon: 5  (In Game Wood Damage = 6)
+ Claymore                Speed | -3.2f | dmg for wood Weapon: 5  (In Game Wood Damage = 6)
+ warhammer               Speed | -3.2f | dmg for wood Weapon: 5  (In Game Wood Damage = 6)
+ Trident                 Speed | /0.5/ | dmg for wood Weapon: 4  (In Game Wood Damage = 5)
+ battleaxe               Speed | -2.8f | dmg for wood Weapon: 4  (In Game Wood Damage = 5)
+ Flail                   Speed | -2.8f | dmg for wood Weapon: 4  (In Game Wood Damage = 5)
+ mace                    Speed | -2.8f | dmg for wood Weapon: 4  (In Game Wood Damage = 5)
+ Long Spear              Speed | -2.7f | dmg for wood Weapon: 4  (In Game Wood Damage = 5)
+ spear                   Speed | -2.7f | dmg for wood Weapon: 4  (In Game Wood Damage = 5)
+ quarterstaff            Speed | -2.6f | dmg for wood Weapon: 3  (In Game Wood Damage = 4)
+ scythe                  Speed | -2.6f | dmg for wood Weapon: 3  (In Game Wood Damage = 4)
+ Halberd                 Speed | -2.6f | dmg for wood Weapon: 3  (In Game Wood Damage = 4)
+ Glaive                  Speed | -2.6f | dmg for wood Weapon: 3  (In Game Wood Damage = 4)
+ sword                   Speed | -2.4f | dmg for wood Weapon: 3  (In Game Wood Damage = 4)
+ scimitar                Speed | -2.3f | dmg for wood Weapon: 3  (In Game Wood Damage = 4)
+ falchion                Speed | -2.3f | dmg for wood Weapon: 3  (In Game Wood Damage = 4)
+ Katana                  Speed | -2.2f | dmg for wood Weapon: 3  (In Game Wood Damage = 4) NOT INCLUDED IN THIS MOD (Only for Divine)
+ rapier                  Speed | -1.8f | dmg for wood Weapon: 2  (In Game Wood Damage = 3)
+ sickle                  Speed | -1.6f | dmg for wood Weapon: 2  (In Game Wood Damage = 3)
+ ceastus/gauntlet/claw   Speed | -1.5f | dmg for wood Weapon: 1  (In Game Wood Damage = 2)
+ dagger                  Speed | -0.8f | dmg for wood Weapon: 1  (In Game Wood Damage = 2)
 
 
+ Order of damage starting from Top to Bottom, Wood starts at a higher damage if it is higher on this list
+ then proceeds to get more damage as the material increases by 1 damage at a time. i hope this makes
+ sense to anyone else but me xD
 
-Order of damage starting from Top to Bottom, Wood starts at a higher damage if it is higher on this list
-then proceeds to get more damage as the material increases by 1 damage at a time. god damn i hope this makes
-sense to anyone else but me xD
+       For Weapons                            What has been textured? This will tell you.
+ 0        wood                               :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+ 1        stone                              :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+ 0        gold                               :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+ 2        silver                             :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+ 2        copper                             :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+ 2        bronze                             :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+ 2        platinum                           :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+ 3        bone                               :, , ,
+ 3        iron                               :Pick, Shovel, Axe, Hoe, Fal, Rap, scy,
+ 3        infernal iron                      :, , , ,Fal, Rap, Scy,
+ 3        cold iron                          :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+ 4        steel                              :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+ 4        diamond                            :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+ 4        elvensteel                         :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+ 4        darksteel                          :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+ 5        netherite                          :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
+                         Materials From here DOWN get a SET Unique styling & animation.
+ 5        dragon bone                        :
+ 6        palladium                          :
+ 7        tungsten-carbide                   :
+ 8        mythril                            :
+ 9        adamantine                         :
+ 9        shadow adamantine                  :
+ 10       dragon adamantine                  :
+ 10       shadow dragon adamantine           :
 
-greatsword                  |dmg for wood 6
-warhammer                   |dmg for wood 6
-battleaxe                   |dmg for wood 6
-mace                        |dmg for wood 5
-spear                       |dmg for wood 5
-scythe                      |dmg for wood 5
-quarterstaff                |dmg for wood 4
-scimitar                    |dmg for wood 4
-sword                       |dmg for wood 4
-falchion                    |dmg for wood 3
-sickle                      |dmg for wood 3
-glaive                      |dmg for wood 3
-rapier                      |dmg for wood 2
-ceastus/gauntlet/glaw       |dmg for wood 2
-dagger -1.5f                |dmg for wood 2
-
-Look at scythes to see where materials gain more damage as they get stronger.
-      For Weapons                            What has been textured? This will tell you.
-0        wood                               :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
-1        stone                              :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
-0        gold                               :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
-2        silver                             :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
-2        copper                             :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
-2        bronze                             :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
-2        platinum                           :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
-3        bone                               :, , ,
-3        iorn                               :Pick, Shovel, Axe, Hoe, Fal, Rap, scy,
-3        infernal iron                      :, , , ,
-3        cold iron                          :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
-4        steel                              :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
-4        diamond                            :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
-4        elvensteel                         :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
-4        darksteel                          :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
-5        netherite                          :Pick, Shovel, Axe, Hoe, Fal, Rap, Scy,
-                        Materials From here DOWN get a SET Unique styling & animation.
-5        dragon bone                        :
-6        palladium                          :
-7        tungsten-carbide                   :
-8        mythril                            :
-9        adamantine                         :
-9        shadow adamantine                  :
-10       dragon adamantine                  :
-10       shadow dragon adamantine           :
+ Vanilla MAY need to be just set to the Weapons Regular WOOD \value/
+                                                              \   /
+                                                               \ /
+ ----------Current Wood Weapon Damage being coded for damage = |0| Taken from the Above Wooden Weapon Damage.
+                                                               DMG     MngLvl    Ench    MngSpd
+ Wood                            Weapon damage + DMG (+_) |     _    |        |        |        |
+ Stone                           Weapon damage + DMG (+_) |     _    |        |        |        |
+ Gold                            Weapon damage + DMG (+_) |     _    |        |        |        |
+ Silver                          Weapon damage + DMG (+_) |     _    |        |        |        |
+ Copper                          Weapon damage + DMG (+_) |     _    |        |        |        |
+ Bronze                          Weapon damage + DMG (+_) |    +1    |        |        |        |
+ Platinum                        Weapon damage + DMG (+_) |    +1    |        |        |        |
+ Bone                            Weapon damage + DMG (+_) |    +1    |        |        |        |
+ Iron                            Weapon damage + DMG (+_) |     _    |        |        |        |
+ Infernal Iron                   Weapon damage + DMG (+_) |    +2    |        |        |        |
+ Cold Iron                       Weapon damage + DMG (+_) |    +2    |        |        |        |
+ Steel                           Weapon damage + DMG (+_) |    +2    |        |        |        |
+ Diamond                         Weapon damage + DMG (+_) |     _    |        |        |        |
+ Elven Steel                     Weapon damage + DMG (+_) |    +3    |        |        |        |
+ Dark Steel                      Weapon damage + DMG (+_) |    +3    |        |        |        |
+ Netherite                       Weapon damage + DMG (+_) |     _    |        |        |        |
+ Dragon Bone                     Weapon damage + DMG (+_) |    +4    |        |        |        |
+ Palladium                       Weapon damage + DMG (+_) |    +4    |        |        |        |
+ Tungsten Carbide                Weapon damage + DMG (+_) |    +4    |        |        |        |
+ Mithril                         Weapon damage + DMG (+_) |    +4    |        |        |        |
+ Adamantine                      Weapon damage + DMG (+_) |    +5    |        |        |        |
+ Shadow Adamantine               Weapon damage + DMG (+_) |    +5    |        |        |        |
+ Adamantine Dragon Bone          Weapon damage + DMG (+_) |    +6    |        |        |        |
+ Shadow Adamantine Dragon Bone   Weapon damage + DMG (+_) |    +6    |        |        |        |
+ ------------------For Divine Only---------------------------------------------------------------
+ Divine (all Divine is the same) Weapon damage + DMG (+_) |    +7    |        |        |        |

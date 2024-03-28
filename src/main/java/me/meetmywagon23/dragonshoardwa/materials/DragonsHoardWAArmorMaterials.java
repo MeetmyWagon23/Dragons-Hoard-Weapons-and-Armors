@@ -177,7 +177,7 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             0.0f,
             Items.COPPER_INGOT
     //),
-    //BRASS(
+    //BRASS(              commented out for now, in the event i need to add this back in at some point.
     //        "brass",
     //        "brass_armor",
     //        11,

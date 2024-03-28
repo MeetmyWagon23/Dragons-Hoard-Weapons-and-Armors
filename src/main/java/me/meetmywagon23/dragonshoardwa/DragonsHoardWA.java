@@ -1,9 +1,6 @@
 package me.meetmywagon23.dragonshoardwa;
 
-import me.meetmywagon23.dragonshoardwa.registries.ArmorsRegistry;
-import me.meetmywagon23.dragonshoardwa.registries.ItemGroupRegistry;
-import me.meetmywagon23.dragonshoardwa.registries.ItemsRegistry;
-import me.meetmywagon23.dragonshoardwa.registries.ToolsRegistry;
+import me.meetmywagon23.dragonshoardwa.registries.*;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import org.apache.logging.log4j.LogManager;
@@ -22,5 +19,6 @@ public class DragonsHoardWA implements ModInitializer {
         ItemGroupRegistry.registerItemGroups();
         ToolsRegistry.register();
         ArmorsRegistry.register();
+        WeaponsRegistry.register();
     }
 }
