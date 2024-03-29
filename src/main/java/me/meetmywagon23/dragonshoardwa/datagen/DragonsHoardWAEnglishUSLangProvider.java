@@ -782,7 +782,7 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         // translationBuilder.add(ToolsRegistry.TITANIUM_HOE, "Titanium Hoe");
         // translationBuilder.add(WeaponsRegistry.TITANIUM_BATTLEAXE, "Titanium Battleaxe");
         // translationBuilder.add(WeaponsRegistry.TITANIUM_CAESTUS, "Titanium Caestus");
-        translationBuilder.add(WeaponsRegistry.TITANIUM_CLAYMORE, "Titanium Claymore");
+        //translationBuilder.add(WeaponsRegistry.TITANIUM_CLAYMORE, "Titanium Claymore");
         // translationBuilder.add(WeaponsRegistry.TITANIUM_DAGGER, "Titanium Dagger");
         // translationBuilder.add(WeaponsRegistry.TITANIUM_FALCHION, "Titanium Falchion");
         // translationBuilder.add(WeaponsRegistry.TITANIUM_GAUNTLET, "Titanium Gauntlet");

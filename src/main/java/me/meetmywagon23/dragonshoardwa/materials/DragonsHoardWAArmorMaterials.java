@@ -33,67 +33,67 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             Items.ROTTEN_FLESH
     ),
     // Leather's Stats: 5, new int[]{1, 2, 3, 1}
-    LEAD(
-            "lead",
-            "lead_armor",
-            4,
-            new int[]{
-                    1,
-                    1,
-                    2,
-                    1
-            },
-            1,
-            SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
-            1.5f,
-            0.2f,
-            ItemsRegistry.LEAD_INGOT
-    ),
-    TIN(
-            "tin",
-            "tin_armor",
-            5,
-            new int[]{
-                    1,
-                    1,
-                    2,
-                    1
-            },
-            8,
-            SoundEvents.ITEM_ARMOR_EQUIP_IRON,
-            0.0f,
-            0.0f,
-            ItemsRegistry.TIN_NUGGET
-    ),
-    ZINC(
-            "zinc",
-            "zinc_armor",
-            6,
-            new int[]{
-                    1,
-                    2,
-                    3,
-                    1
-            },
-            8,
-            SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
-            0.0f,
-            0.0f,
-            ItemsRegistry.ZINC_INGOT
-    ),
+    // LEAD(
+    //         "lead",
+    //         "lead_armor",
+    //         4,
+    //         new int[]{
+    //                 1,
+    //                 1,
+    //                 2,
+    //                 1
+    //         },
+    //         1,
+    //         SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
+    //         1.5f,
+    //         0.2f,
+    //         ItemsRegistry.LEAD_INGOT
+    // ),
+    // TIN(
+    //         "tin",
+    //         "tin_armor",
+    //         5,
+    //         new int[]{
+    //                 1,
+    //                 1,
+    //                 2,
+    //                 1
+    //         },
+    //         8,
+    //         SoundEvents.ITEM_ARMOR_EQUIP_IRON,
+    //         0.0f,
+    //         0.0f,
+    //         ItemsRegistry.TIN_NUGGET
+    // ),
+    // ZINC(
+    //         "zinc",
+    //         "zinc_armor",
+    //         6,
+    //         new int[]{
+    //                 1,
+    //                 2,
+    //                 3,
+    //                 1
+    //         },
+    //         8,
+    //         SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
+    //         0.0f,
+    //         0.0f,
+    //         ItemsRegistry.ZINC_INGOT
+    // ),
     SILVER(
             "silver",
             "silver_armor",
             7,
             new int[]{
-                    1,
                     2,
-                    2,
-                    1
+                    3,
+                    4,
+                    2
             },
             15,
             SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
-            0.4f,
+            0.0f,
             0.0f,
             ItemsRegistry.SILVER_INGOT
     ),
@@ -103,32 +103,32 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             6,
             new int[]{
                     1,
-                    1,
-                    1,
+                    2,
+                    3,
                     1
             },
-            14,
+            15,
             SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
-            0.2f,
+            0.0f,
             0.0f,
             ItemsRegistry.SILVER_INGOT
     ),
-    ALUMINUM(
-            "aluminum",
-            "aluminum_armor",
-            8,
-            new int[]{
-                    1,
-                    2,
-                    2,
-                    1
-            },
-            8,
-            SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
-            0.0f,
-            0.0f,
-            ItemsRegistry.ALUMINUM_INGOT
-    ),
+    // ALUMINUM(
+    //         "aluminum",
+    //         "aluminum_armor",
+    //         8,
+    //         new int[]{
+    //                 1,
+    //                 2,
+    //                 2,
+    //                 1
+    //         },
+    //         8,
+    //         SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
+    //         0.0f,
+    //         0.0f,
+    //         ItemsRegistry.ALUMINUM_INGOT
+    // ),
     // ELECTRUM(
     //         "electrum",
     //         "electrum_armor",
@@ -150,14 +150,14 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             "copper_armor",
             10,
             new int[]{
-                    1,
-                    2,
-                    2,
+                    3,
+                    3,
+                    4,
                     2
             },
             3,
             SoundEvents.ITEM_ARMOR_EQUIP_IRON,
-            0.0f,
+            0.1f,
             0.0f,
             Items.COPPER_INGOT
     ),
@@ -166,9 +166,9 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             "light_copper_armor",
             8,
             new int[]{
-                    1,
-                    1,
                     2,
+                    2,
+                    3,
                     1
             },
             3,
@@ -200,13 +200,13 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             new int[]{
                     2,
                     4,
-                    4,
+                    5,
                     2
             },
             4,
             SoundEvents.ITEM_ARMOR_EQUIP_IRON,
-            0.8f,
-            0.0f,
+            0.6f,
+            0.1f,
             ItemsRegistry.BRONZE_INGOT
     ),
     PLATINUM(
@@ -232,7 +232,7 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             new int[]{
                     2,
                     3,
-                    4,
+                    3,
                     1
             },
             18,
@@ -246,45 +246,45 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             "bone_armor",
             4,
             new int[]{
-                    2,
-                    5,
+                    3,
+                    4,
                     5,
                     2
             },
-            2,
+            1,
             SoundEvents.ENTITY_SKELETON_AMBIENT,
             1.0f,
             0.0f,
             Items.BONE
     ),
     // Iron's Stats: 15, new int[]{2, 5, 6, 2}
-    LIGHT_IRON(
-            "light_iron",
-            "light_iron_armors",
-            12,
-            new int[]{
-                    1,
-                    4,
-                    4,
-                    1
-            },
-            16,
-            SoundEvents.ITEM_ARMOR_EQUIP_IRON,
-            0.5f,
-            0.f,
-            Items.IRON_INGOT
-    ),
+    // LIGHT_IRON(
+    //         "light_iron",
+    //         "light_iron_armors",
+    //         12,
+    //         new int[]{
+    //                 1,
+    //                 4,
+    //                 4,
+    //                 1
+    //         },
+    //         16,
+    //         SoundEvents.ITEM_ARMOR_EQUIP_IRON,
+    //         0.5f,
+    //         0.f,
+    //         Items.IRON_INGOT
+    // ),
     INFERNAL_IRON(
             "infernal_iron",
             "infernal_iron_armor",
             15,
             new int[]{
-                    2,
+                    3,
                     5,
                     6,
                     2
             },
-            13,
+            11,
             SoundEvents.ITEM_ARMOR_EQUIP_IRON,
             1.5f,
             0.1f,
@@ -296,11 +296,11 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             15,
             new int[]{
                     2,
+                    3,
                     4,
-                    4,
-                    2
+                    1
             },
-            13,
+            11,
             SoundEvents.ITEM_ARMOR_EQUIP_CHAIN,
             1.5f,
             0.1f,
@@ -311,10 +311,10 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             "wither_bone_armor",
             12,
             new int[]{
-                    2,
+                    3,
                     5,
                     6,
-                    2
+                    3
             },
             2,
             SoundEvents.ITEM_ARMOR_EQUIP_IRON,
@@ -328,8 +328,8 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             21,
             new int[]{
                     3,
+                    5,
                     6,
-                    7,
                     3
             },
             9,
@@ -359,7 +359,7 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             "elven_steel_armor",
             26,
             new int[]{
-                    3,
+                    4,
                     6,
                     7,
                     3
@@ -391,7 +391,7 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             "dark_steel_armor",
             26,
             new int[]{
-                    3,
+                    4,
                     6,
                     7,
                     3
@@ -426,15 +426,15 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             "dragon_scale_mail",
             46,
             new int[]{
+                    3,
                     4,
-                    7,
-                    9,
-                    4
+                    5,
+                    2
             },
-            18,
+            14,
             SoundEvents.ITEM_ARMOR_EQUIP_LEATHER,
-            1.0f,
-            0.0f,
+            2.0f,
+            0.2f,
             ItemsRegistry.DRAGON_SCALE
     ),
     PALLADIUM(
@@ -444,8 +444,8 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             new int[]{
                     4,
                     7,
-                    9,
-                    4
+                    8,
+                    3
             },
             22,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
@@ -459,8 +459,8 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             32,
             new int[]{
                     3,
+                    4,
                     5,
-                    6,
                     3
             },
             22,
@@ -474,12 +474,12 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             "tungsten_carbide_armor",
             55,
             new int[]{
-                    5,
-                    8,
-                    10,
-                    5
+                    4,
+                    7,
+                    9,
+                    4
             },
-            15,
+            13,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
             3.0f,
             0.3f,
@@ -490,10 +490,10 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             "mithril_mail",
             49,
             new int[]{
-                    4,
+                    3,
+                    5,
                     6,
-                    7,
-                    4
+                    3
             },
             15,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
@@ -507,11 +507,11 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             62,
             new int[]{
                     6,
-                    10,
-                    12,
-                    6
+                    8,
+                    9,
+                    5
             },
-            12,
+            15,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             4.0f,
             0.4f,
@@ -523,11 +523,11 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             50,
             new int[]{
                     4,
-                    7,
-                    8,
-                    4
+                    6,
+                    6,
+                    3
             },
-            12,
+            15,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             2.0f,
             0.2f,
@@ -539,9 +539,9 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             62,
             new int[]{
                     6,
-                    10,
-                    12,
-                    6
+                    8,
+                    9,
+                    5
             },
             18,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
@@ -555,9 +555,9 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             50,
             new int[]{
                     4,
-                    7,
-                    8,
-                    4
+                    6,
+                    6,
+                    3
             },
             18,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
@@ -571,11 +571,11 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             67,
             new int[]{
                     7,
-                    11,
-                    13,
-                    7
+                    8,
+                    9,
+                    6
             },
-            18,
+            15,
             SoundEvents.ITEM_ARMOR_EQUIP_TURTLE,
             5f,
             0.4f,
@@ -586,12 +586,12 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             "light_adamantine_coated_dragon_scale_mail",
             55,
             new int[]{
-                    5,
-                    8,
-                    9,
-                    5
+                    4,
+                    6,
+                    7,
+                    3
             },
-            18,
+            15,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             2.5f,
             0.2f,
@@ -603,9 +603,9 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             67,
             new int[]{
                     7,
-                    11,
-                    13,
-                    7
+                    8,
+                    9,
+                    6
             },
             18,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
@@ -618,10 +618,10 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             "light_shadow_adamantine_coated_dragon_scale_mail",
             55,
             new int[]{
-                    5,
-                    8,
-                    9,
-                    5
+                    4,
+                    6,
+                    7,
+                    3
             },
             18,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
@@ -636,9 +636,9 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             "divine_armor",
             69,
             new int[]{
-                    7,
-                    11,
-                    13,
+                    8,
+                    8,
+                    9,
                     7
             },
             18,
@@ -653,9 +653,9 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             69,
             new int[]{
                     5,
-                    8,
-                    9,
-                    5
+                    6,
+                    7,
+                    4
             },
             18,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
@@ -668,13 +668,13 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             "glacial_armor",
             9,
             new int[]{
-                    7,
-                    11,
-                    13,
+                    8,
+                    8,
+                    9,
                     7
             },
-            14,
-            SoundEvents.ITEM_ARMOR_EQUIP_IRON,
+            18,
+            SoundEvents.BLOCK_POWDER_SNOW_PLACE,
             2.5f,
             0.2f,
             ItemsRegistry.ANCIENT_ICE
@@ -684,15 +684,15 @@ public enum DragonsHoardWAArmorMaterials implements ArmorMaterial {
             "e_armor",
             9,
             new int[]{
-                    7,
-                    11,
-                    13,
-                    7
+                    1,
+                    1,
+                    1,
+                    1
             },
-            14,
+            1,
             SoundEvents.ITEM_ARMOR_EQUIP_IRON,
-            2.5f,
-            0.2f,
+            0.0f,
+            0.0f,
             ItemsRegistry.ANCIENT_ICE
     );
 

@@ -201,7 +201,6 @@ public class WeaponsRegistry {
     public static final SwordItem NETHERITE_CLAYMORE = registerSwordItems("netherite_claymore", new SwordItem(ToolMaterials.NETHERITE, 5, -3.2f, new Item.Settings()));
     public static final SwordItem DRAGON_BONE_CLAYMORE = registerSwordItems("dragon_bone_claymore", new SwordItem(DragonsHoardWAToolMaterials.DRAGON_BONE, 9, -3.2f, new Item.Settings()));
     public static final SwordItem PALLADIUM_CLAYMORE = registerSwordItems("palladium_claymore", new SwordItem(DragonsHoardWAToolMaterials.PALLADIUM, 9, -3.2f, new Item.Settings()));
-    public static final SwordItem TITANIUM_CLAYMORE = registerSwordItems("titanium_claymore", new SwordItem(DragonsHoardWAToolMaterials.TITANIUM, 9, -3.2f, new Item.Settings()));
     public static final SwordItem TUNGSTEN_CARBIDE_CLAYMORE = registerSwordItems("tungsten_carbide_claymore", new SwordItem(DragonsHoardWAToolMaterials.TUNGSTEN_CARBIDE, 9, -3.2f, new Item.Settings()));
     public static final SwordItem MITHRIL_CLAYMORE = registerSwordItems("mithril_claymore", new SwordItem(DragonsHoardWAToolMaterials.MITHRIL, 9, -3.2f, new Item.Settings()));
     public static final SwordItem ADAMANTINE_CLAYMORE = registerSwordItems("adamantine_claymore", new SwordItem(DragonsHoardWAToolMaterials.ADAMANTINE, 10, -3.2f, new Item.Settings()));
