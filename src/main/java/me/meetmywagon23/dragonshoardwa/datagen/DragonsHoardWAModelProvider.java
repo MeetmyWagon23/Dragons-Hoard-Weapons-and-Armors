@@ -50,6 +50,7 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ItemsRegistry.WITHER_SKELETON_PELVIS, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.DRAGON_SCALE, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.DRAGON_BONE, Models.GENERATED);
+        itemModelGenerator.register(ItemsRegistry.BROKEN_DRAGON_SPLINTER, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.DIVINE_CATALYST, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.ANCIENT_ICE, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.RAW_ADAMANT_FRAGMENT, Models.GENERATED);

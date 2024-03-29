@@ -41,6 +41,7 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(ItemsRegistry.WITHER_SKELETON_PELVIS, "Wither Skeleton Pelvis");
         translationBuilder.add(ItemsRegistry.DRAGON_SCALE, "Dragon Scale");
         translationBuilder.add(ItemsRegistry.DRAGON_BONE, "Dragon Bone");
+        translationBuilder.add(ItemsRegistry.BROKEN_DRAGON_SPLINTER, "Dragon Bone Splinter");
         translationBuilder.add(ItemsRegistry.DIVINE_CATALYST, "Divine Catalyst");
         translationBuilder.add(ItemsRegistry.ANCIENT_ICE, "Ancient Ice");
 

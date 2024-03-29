@@ -35,7 +35,7 @@ public class ItemsRegistry {
     public static final Item WITHER_SKELETON_PELVIS = registerItems("wither_skeleton_pelvis", new Item(new Item.Settings().rarity(Rarity.UNCOMMON)));
     public static final Item DRAGON_SCALE = registerItems("dragon_scale", new Item(new Item.Settings().rarity(Rarity.EPIC)));
     public static final Item DRAGON_BONE = registerItems("dragon_bone", new Item(new Item.Settings().rarity(Rarity.EPIC)));
-    public static final Item BROKEN_DRAGON_BONE = registerItems("broken_dragon_bone", new Item(new Item.Settings().rarity(Rarity.EPIC)));
+    public static final Item BROKEN_DRAGON_SPLINTER = registerItems("broken_dragon_splinter", new Item(new Item.Settings().rarity(Rarity.EPIC)));
 
     // Need to make a new Rarity specification "Divine"
     public static final Item DIVINE_CATALYST = registerItems("divine_catalyst", new Item(new Item.Settings().maxCount(8).rarity(Rarity.EPIC)));
