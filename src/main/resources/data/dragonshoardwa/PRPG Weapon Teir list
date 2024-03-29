@@ -92,16 +92,16 @@
 
 
 
- --------------Armor Stuff From here down---------------------------------
+ --------------Armor Value From here down---------------------------------
                                   Normal  Light
-  Wood  (Leather)                |  7-  |   5   |
-  Stone                          |  __  |      |
-  Gold                           |  11- |   7   |
-  Silver                         |  11  |   7   |
-  Chain                          |  12- |   8   |
-  Copper                         |  12  |   8   |
-  Bronze                         |  13  |   9   |
-  Platinum                       |  13  |   9   |
+  Wood  (Leather)                |  7-  |   _    |
+  Stone                          |  __  |   _    |
+  Gold                           |  11- |   7    |
+  Silver                         |  11  |   7    |
+  Chain                          |  12- |   8    |
+  Copper                         |  12  |   8    |
+  Bronze                         |  13  |   9    |
+  Platinum                       |  13  |   9    |
   Bone                           |  14  |   10   |
   Iron                           |  15- |  Chain |
   Infernal Iron                  |  16  |   10   |

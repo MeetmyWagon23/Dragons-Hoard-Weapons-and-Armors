@@ -24,7 +24,10 @@ public class ItemsRegistry {
     public static final Item PLATINUM_COIN_TEN_STACK = registerItems("platinum_coin_ten_stack", new CoinItem(new Item.Settings()));
 
     public static final Item LIGHT_ARMOR_MESH = registerItems("light_armor_mesh", new Item(new Item.Settings().rarity(Rarity.UNCOMMON)));
-    public static final Item WITHER_BONE = registerItems("wither_bone", new Item(new Item.Settings())); //   \/--from Wither Bone
+    // public static final Item ARMOR_PLATING = registerItems("armor_plating", new Item(new Item.Settings().rarity(Rarity.UNCOMMON))); UNUSED ATM
+    public static final Item BONE_SPLINTER = registerItems("bone_splinter", new Item(new Item.Settings()));
+    public static final Item WITHER_BONE = registerItems("wither_bone", new Item(new Item.Settings()));
+    public static final Item WITHER_BONE_SPLINTER = registerItems("wither_bone_splinter", new Item(new Item.Settings()));
     public static final Item BONE_BLIGHT = registerItems("bone_blight", new Item(new Item.Settings())); //only turn poppy's into wither rose. all else dead bush.
     public static final Item SKELETON_RIBCAGE = registerItems("skeleton_ribcage", new Item(new Item.Settings().rarity(Rarity.UNCOMMON)));
     public static final Item WITHER_SKELETON_RIBCAGE = registerItems("wither_skeleton_ribcage", new Item(new Item.Settings().rarity(Rarity.UNCOMMON)));
@@ -32,11 +35,12 @@ public class ItemsRegistry {
     public static final Item WITHER_SKELETON_PELVIS = registerItems("wither_skeleton_pelvis", new Item(new Item.Settings().rarity(Rarity.UNCOMMON)));
     public static final Item DRAGON_SCALE = registerItems("dragon_scale", new Item(new Item.Settings().rarity(Rarity.EPIC)));
     public static final Item DRAGON_BONE = registerItems("dragon_bone", new Item(new Item.Settings().rarity(Rarity.EPIC)));
+    public static final Item BROKEN_DRAGON_BONE = registerItems("broken_dragon_bone", new Item(new Item.Settings().rarity(Rarity.EPIC)));
 
     // Need to make a new Rarity specification "Divine"
     public static final Item DIVINE_CATALYST = registerItems("divine_catalyst", new Item(new Item.Settings().maxCount(8).rarity(Rarity.EPIC)));
 
-    // Dropped from Ancient Ice Block &/or Ice Based "God" Boss
+    // Dropped from Ancient Ice Block &/or Ice Based "Divine Classed" Boss
     public static final Item ANCIENT_ICE = registerItems("ancient_ice", new Item(new Item.Settings().maxCount(8).rarity(Rarity.EPIC)));
 
     /*
@@ -204,6 +208,10 @@ public class ItemsRegistry {
     public static final Item TITANIUM_DUST = registerItems("titanium_dust", new Item(new Item.Settings()));
     public static final Item TUNGSTEN_DUST = registerItems("tungsten_dust", new Item(new Item.Settings()));
     public static final Item ZINC_DUST = registerItems("zinc_dust", new Item(new Item.Settings()));
+    /*------------------------------------------------------------------------------------------------------------------
+    --------------------------------------------------WEAPON-BLADES-----------------------------------------------------
+    ------------------------------------------------------------------------------------------------------------------*/
+
 
 
     protected static Item registerItems(String id, Item newItem) {

@@ -30,7 +30,10 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(ItemsRegistry.PLATINUM_COIN_TEN_STACK, "Platinum Coin Stack (10)");
 
         translationBuilder.add(ItemsRegistry.LIGHT_ARMOR_MESH, "Light Armor Mesh");
+        // translationBuilder.add(ItemsRegistry.ARMOR_PLATING, "Armor Plating"); UNUSED ATM
+        translationBuilder.add(ItemsRegistry.BONE_SPLINTER, "Bone Splinter");
         translationBuilder.add(ItemsRegistry.WITHER_BONE, "Wither Bone");
+        translationBuilder.add(ItemsRegistry.WITHER_BONE_SPLINTER, "Wither Bone Splinter");
         translationBuilder.add(ItemsRegistry.BONE_BLIGHT, "Bone Blight");
         translationBuilder.add(ItemsRegistry.SKELETON_RIBCAGE, "Skeleton Ribcage");
         translationBuilder.add(ItemsRegistry.WITHER_SKELETON_RIBCAGE, "Wither Skeleton Ribcage");
@@ -186,18 +189,18 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(ToolsRegistry.ADAMANTINE_DRAGON_BONE_HOE, "Adamantine Dragon Bone Hoe");
         translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_BATTLEAXE, "Adamantine Dragon Bone Battleaxe");
         translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_CAESTUS, "Adamantine Dragon Bone Caestus");
-        // translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_CLAYMORE, "Adamantine Dragon Bone Claymore");
-        // translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_DAGGER, "Adamantine Dragon Bone Dagger");
+        translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_CLAYMORE, "Adamantine Dragon Bone Claymore");
+        translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_DAGGER, "Adamantine Dragon Bone Dagger");
         translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_FALCHION, "Adamantine Dragon Bone Falchion");
         // translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_GAUNTLET, "Adamantine Dragon Bone Gauntlet");
         translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_GLAIVE, "Adamantine Dragon Bone Glaive");
         translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_GREATSWORD, "Adamantine Dragon Bone Greatsword");
-        // translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_HALBERD, "Adamantine Dragon Bone Halberd");
+        translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_HALBERD, "Adamantine Dragon Bone Halberd");
         // translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_HANDAXE, "Adamantine Dragon Bone Handaxe");
-        // translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_LONG_SPEAR, "Adamantine Dragon Bone LONG_SPEAR");
+        translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_LONG_SPEAR, "Adamantine Dragon Bone LONG_SPEAR");
         // translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_LONGSWORD, "Adamantine Dragon Bone Longsword");
         translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_MACE, "Adamantine Dragon Bone Mace");
-        // translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_PIKE, "Adamantine Dragon Bone Pike");
+        translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_PIKE, "Adamantine Dragon Bone Pike");
         translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_QUARTERSTAFF, "Adamantine Dragon Bone Quarterstaff");
         translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_RAPIER, "Adamantine Dragon Bone Rapier");
         translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_SCIMITAR, "Adamantine Dragon Bone Scimitar");
@@ -205,7 +208,7 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_SICKLE, "Adamantine Dragon Bone Sickle");
         translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_SPEAR, "Adamantine Dragon Bone Spear");
         translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_SWORD, "Adamantine Dragon Bone Sword");
-        // translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_TRIDENT, "Adamantine Dragon Bone Trident");
+        translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_TRIDENT, "Adamantine Dragon Bone Trident");
         translationBuilder.add(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_WARHAMMER, "Adamantine Dragon Bone War Hammer");
 
         translationBuilder.add(ToolsRegistry.BONE_PICKAXE, "Bone Pickaxe");
@@ -243,7 +246,7 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(WeaponsRegistry.BRONZE_BATTLEAXE, "Bronze Battleaxe");
         // translationBuilder.add(WeaponsRegistry.BRONZE_CAESTUS, "Bronze Caestus");
         translationBuilder.add(WeaponsRegistry.BRONZE_CLAYMORE, "Bronze Claymore");
-        // translationBuilder.add(WeaponsRegistry.BRONZE_DAGGER, "Bronze Dagger");
+        translationBuilder.add(WeaponsRegistry.BRONZE_DAGGER, "Bronze Dagger");
         translationBuilder.add(WeaponsRegistry.BRONZE_FALCHION, "Bronze Falchion");
         translationBuilder.add(WeaponsRegistry.BRONZE_GAUNTLET, "Bronze Gauntlet");
         translationBuilder.add(WeaponsRegistry.BRONZE_GLAIVE, "Bronze Glaive");
@@ -463,7 +466,7 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(WeaponsRegistry.INFERNAL_IRON_DAGGER, "Infernal Iron Dagger");
         translationBuilder.add(WeaponsRegistry.INFERNAL_IRON_FALCHION, "Infernal Iron Falchion");
         translationBuilder.add(WeaponsRegistry.INFERNAL_IRON_GAUNTLET, "Infernal Iron Gauntlet");
-        // translationBuilder.add(WeaponsRegistry.INFERNAL_IRON_GLAIVE, "Infernal Iron Glaive");
+        translationBuilder.add(WeaponsRegistry.INFERNAL_IRON_GLAIVE, "Infernal Iron Glaive");
         translationBuilder.add(WeaponsRegistry.INFERNAL_IRON_GREATSWORD, "Infernal Iron Greatsword");
         translationBuilder.add(WeaponsRegistry.INFERNAL_IRON_HALBERD, "Infernal Iron Halberd");
         // translationBuilder.add(WeaponsRegistry.INFERNAL_IRON_HANDAXE, "Infernal Iron Handaxe");
@@ -675,18 +678,18 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(ToolsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_HOE, "Shadow Adamantine Dragon Bone Hoe");
         translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_BATTLEAXE, "Shadow Adamantine Dragon Bone Battleaxe");
         translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_CAESTUS, "Shadow Adamantine Dragon Bone Caestus");
-        // translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_CLAYMORE, "Shadow Adamantine Dragon Bone Claymore");
-        // translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_DAGGER, "Shadow Adamantine Dragon Bone Dagger");
+        translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_CLAYMORE, "Shadow Adamantine Dragon Bone Claymore");
+        translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_DAGGER, "Shadow Adamantine Dragon Bone Dagger");
         translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_FALCHION, "Shadow Adamantine Dragon Bone Falchion");
         // translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_GAUNTLET, "Shadow Adamantine Dragon Bone Gauntlet");
         translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_GREATSWORD, "Shadow Adamantine Dragon Bone Greatsword");
         translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_GLAIVE, "Shadow Adamantine Dragon Bone Glaive");
-        // translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_HALBERD, "Shadow Adamantine Dragon Bone Halberd");
+        translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_HALBERD, "Shadow Adamantine Dragon Bone Halberd");
         // translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_HANDAXE, "Shadow Adamantine Dragon Bone Handaxe");
-        // translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_LONG_SPEAR, "Shadow Adamantine Dragon Bone Long Spear");
+        translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_LONG_SPEAR, "Shadow Adamantine Dragon Bone Long Spear");
         // translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_LONGSWORD, "Shadow Adamantine Dragon Bone Longsword");
         translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_MACE, "Shadow Adamantine Dragon Bone Mace");
-        // translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_PIKE, "Shadow Adamantine Dragon Bone Pike");
+        translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_PIKE, "Shadow Adamantine Dragon Bone Pike");
         translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_QUARTERSTAFF, "Shadow Adamantine Dragon Bone Quarterstaff");
         translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_RAPIER, "Shadow Adamantine Dragon Bone Rapier");
         translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_SCIMITAR, "Shadow Adamantine Dragon Bone Scimitar");
@@ -694,7 +697,7 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_SPEAR, "Shadow Adamantine Dragon Bone Spear");
         translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_SWORD, "Shadow Adamantine Dragon Bone Sword");
         translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_SICKLE, "Shadow Adamantine Dragon Bone Sickle");
-        // translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_TRIDENT, "Shadow Adamantine Dragon Bone Trident");
+        translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_TRIDENT, "Shadow Adamantine Dragon Bone Trident");
         translationBuilder.add(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_WARHAMMER, "Shadow Adamantine Dragon Bone Warhammer");
 
         translationBuilder.add(ToolsRegistry.SILVER_PICKAXE, "Silver Pickaxe");
@@ -822,7 +825,7 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         // translationBuilder.add(WeaponsRegistry.TUNGSTEN_CARBIDE_LONGSWORD, "Tungsten Carbide Longsword");
         translationBuilder.add(WeaponsRegistry.TUNGSTEN_CARBIDE_MACE, "Tungsten Carbide Mace");
         translationBuilder.add(WeaponsRegistry.TUNGSTEN_CARBIDE_PIKE, "Tungsten Carbide Pike");
-        // translationBuilder.add(WeaponsRegistry.TUNGSTEN_CARBIDE_QUARTERSTAFF, "Tungsten Carbide Quarterstaff");
+        translationBuilder.add(WeaponsRegistry.TUNGSTEN_CARBIDE_QUARTERSTAFF, "Tungsten Carbide Quarterstaff");
         translationBuilder.add(WeaponsRegistry.TUNGSTEN_CARBIDE_RAPIER, "Tungsten Carbide Rapier");
         translationBuilder.add(WeaponsRegistry.TUNGSTEN_CARBIDE_SCIMITAR, "Tungsten Carbide Scimitar");
         translationBuilder.add(WeaponsRegistry.TUNGSTEN_CARBIDE_SCYTHE, "Tungsten Carbide Scythe");

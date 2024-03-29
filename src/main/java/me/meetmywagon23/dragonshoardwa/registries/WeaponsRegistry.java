@@ -36,6 +36,8 @@ public class WeaponsRegistry {
     public static final TridentItem MITHRIL_DAGGER = registerTridentItems("mithril_dagger", new TridentItem((new Item.Settings()).maxDamage(3581)));
     public static final TridentItem ADAMANTINE_DAGGER = registerTridentItems("adamantine_dagger", new TridentItem((new Item.Settings()).maxDamage(4101)));
     public static final TridentItem SHADOW_ADAMANTINE_DAGGER = registerTridentItems("shadow_adamantine_dagger", new TridentItem((new Item.Settings()).maxDamage(4101)));
+    public static final TridentItem ADAMANTINE_DRAGON_BONE_DAGGER = registerTridentItems("adamantine_dragon_bone_dagger", new TridentItem((new Item.Settings()).maxDamage(4101)));
+    public static final TridentItem SHADOW_ADAMANTINE_DRAGON_BONE_DAGGER = registerTridentItems("shadow_adamantine_dragon_bone_dagger", new TridentItem((new Item.Settings()).maxDamage(4101)));
 
     /*----------------------------------------------------------------------------------------------------------------------
     ------------------------------------------------------SPEARS------------------------------------------------------------
@@ -220,7 +222,7 @@ public class WeaponsRegistry {
     public static final SwordItem PLATINUM_GLAIVE = registerSwordItems("platinum_glaive", new SwordItem(DragonsHoardWAToolMaterials.PLATINUM, 4, -2.6f, new Item.Settings()));
     public static final SwordItem BONE_GLAIVE = registerSwordItems("bone_glaive", new SwordItem(DragonsHoardWAToolMaterials.BONE, 4, -2.6f, new Item.Settings()));
     public static final SwordItem IRON_GLAIVE = registerSwordItems("iron_glaive", new SwordItem(ToolMaterials.IRON, 3, -2.0f, new Item.Settings()));
-    public static final SwordItem INFERNAL_GLAIVE = registerSwordItems("infernal_iron_glaive", new SwordItem(DragonsHoardWAToolMaterials.INFERNAL_IRON, 5, -2.6f, new Item.Settings()));
+    public static final SwordItem INFERNAL_IRON_GLAIVE = registerSwordItems("infernal_iron_glaive", new SwordItem(DragonsHoardWAToolMaterials.INFERNAL_IRON, 5, -2.6f, new Item.Settings()));
     public static final SwordItem COLD_IRON_GLAIVE = registerSwordItems("cold_iron_glaive", new SwordItem(DragonsHoardWAToolMaterials.COLD_IRON, 5, -2.6f, new Item.Settings()));
     public static final SwordItem STEEL_GLAIVE = registerSwordItems("steel_glaive", new SwordItem(DragonsHoardWAToolMaterials.STEEL, 5, -2.6f, new Item.Settings()));
     public static final SwordItem DIAMOND_GLAIVE = registerSwordItems("diamond_glaive", new SwordItem(ToolMaterials.DIAMOND, 3, -2.6f, new Item.Settings()));
@@ -347,7 +349,8 @@ public class WeaponsRegistry {
     public static final TridentItem MITHRIL_TRIDENT = registerTridentItems("mithril_trident", new TridentItem((new Item.Settings()).maxDamage(3581)));
     public static final TridentItem ADAMANTINE_TRIDENT = registerTridentItems("adamantine_trident", new TridentItem((new Item.Settings()).maxDamage(4101)));
     public static final TridentItem SHADOW_ADAMANTINE_TRIDENT = registerTridentItems("shadow_adamantine_trident", new TridentItem((new Item.Settings()).maxDamage(4101)));
-
+    public static final TridentItem ADAMANTINE_DRAGON_BONE_TRIDENT = registerTridentItems("adamantine_dragon_bone_trident", new TridentItem((new Item.Settings()).maxDamage(4101)));
+    public static final TridentItem SHADOW_ADAMANTINE_DRAGON_BONE_TRIDENT = registerTridentItems("shadow_adamantine_dragon_bone_trident", new TridentItem((new Item.Settings()).maxDamage(4101)));
     /*----------------------------------------------------------------------------------------------------------------------
     ------------------------------------------------------BATTLEAXES--------------------------------------------------------
     ----------------------------------------------------------------------------------------------------------------------*/

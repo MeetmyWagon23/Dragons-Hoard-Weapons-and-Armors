@@ -23,7 +23,7 @@
     "dragonshoardwa:silver_spear",
     "dragonshoardwa:steel_spear",
     "dragonshoardwa:stone_spear",
-    "dragonshoardwa:tungsten_spear",
+    "dragonshoardwa:tungsten_carbide_spear",
     "dragonshoardwa:wooden_spear",
     "dragonshoardwa:adamantine_trident",
     "dragonshoardwa:bone_trident",
@@ -45,7 +45,7 @@
     "dragonshoardwa:silver_trident",
     "dragonshoardwa:steel_trident",
     "dragonshoardwa:stone_trident",
-    "dragonshoardwa:tungsten_trident",
+    "dragonshoardwa:tungsten_carbide_trident",
     "dragonshoardwa:wooden_trident"
   ]
 }
