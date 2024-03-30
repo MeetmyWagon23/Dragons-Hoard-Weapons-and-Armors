@@ -1,8 +1,10 @@
 {
   "replace": false,
   "values": [
+    "dragonshoardwa:adamantine_dragon_bone_dagger",
     "dragonshoardwa:adamantine_dagger",
     "dragonshoardwa:bone_dagger",
+    "dragonshoardwa:bronze_dagger",
     "dragonshoardwa:cold_iron_dagger",
     "dragonshoardwa:copper_dagger",
     "dragonshoardwa:dark_steel_dagger",
@@ -16,6 +18,7 @@
     "dragonshoardwa:netherite_dagger",
     "dragonshoardwa:palladium_dagger",
     "dragonshoardwa:platinum_dagger",
+    "dragonshoardwa:shadow_adamantine_dragon_bone_dagger",
     "dragonshoardwa:shadow_adamantine_dagger",
     "dragonshoardwa:silver_dagger",
     "dragonshoardwa:steel_dagger",

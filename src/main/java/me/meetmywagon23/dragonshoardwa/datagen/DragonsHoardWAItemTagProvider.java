@@ -20,7 +20,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.TOOLS).add(
-                // WeaponsRegistry.ADAMANTINE_DRAGON_BONE_TRIDENT,
+                WeaponsRegistry.ADAMANTINE_DRAGON_BONE_TRIDENT,
                 WeaponsRegistry.ADAMANTINE_TRIDENT,
                 WeaponsRegistry.BONE_TRIDENT,
                 WeaponsRegistry.BRONZE_TRIDENT,
@@ -37,7 +37,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.NETHERITE_TRIDENT,
                 WeaponsRegistry.PALLADIUM_TRIDENT,
                 WeaponsRegistry.PLATINUM_TRIDENT,
-                // WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_TRIDENT,
+                WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_TRIDENT,
                 WeaponsRegistry.SHADOW_ADAMANTINE_TRIDENT,
                 WeaponsRegistry.SILVER_TRIDENT,
                 WeaponsRegistry.STEEL_TRIDENT,
@@ -90,30 +90,6 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.TUNGSTEN_CARBIDE_BATTLEAXE,
                 WeaponsRegistry.WOODEN_BATTLEAXE
 
-                // WeaponsRegistry.ADAMANTINE_DRAGON_BONE_HANDAXE,
-                // WeaponsRegistry.ADAMANTINE_HANDAXE,
-                // WeaponsRegistry.BONE_HANDAXE,
-                // WeaponsRegistry.BRONZE_HANDAXE,
-                // WeaponsRegistry.COLD_IRON_HANDAXE,
-                // WeaponsRegistry.COPPER_HANDAXE,
-                // WeaponsRegistry.DARK_STEEL_HANDAXE,
-                // WeaponsRegistry.DIAMOND_HANDAXE,
-                // WeaponsRegistry.DRAGON_BONE_HANDAXE,
-                // WeaponsRegistry.ELVEN_STEEL_HANDAXE,
-                // WeaponsRegistry.GOLDEN_HANDAXE,
-                // WeaponsRegistry.INFERNAL_IRON_HANDAXE,
-                // WeaponsRegistry.IRON_HANDAXE,
-                // WeaponsRegistry.MITHRIL_HANDAXE,
-                // WeaponsRegistry.NETHERITE_HANDAXE,
-                // WeaponsRegistry.PALLADIUM_HANDAXE,
-                // WeaponsRegistry.PLATINUM_HANDAXE,
-                // WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_HANDAXE,
-                // WeaponsRegistry.SHADOW_ADAMANTINE_HANDAXE,
-                // WeaponsRegistry.SILVER_HANDAXE,
-                // WeaponsRegistry.STEEL_HANDAXE,
-                // WeaponsRegistry.STONE_HANDAXE,
-                // WeaponsRegistry.TUNGSTEN_CARBIDE_HANDAXE,
-                // WeaponsRegistry.WOODEN_HANDAXE
         );
         getOrCreateTagBuilder(ItemTags.HOES).add(
                 ToolsRegistry.ADAMANTINE_DRAGON_BONE_HOE,
@@ -176,7 +152,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 ToolsRegistry.TUNGSTEN_CARBIDE_SHOVEL
         );
         getOrCreateTagBuilder(ItemTags.SWORDS).add(
-                // WeaponsRegistry.ADAMANTINE_DRAGON_BONE_CLAYMORE,
+                WeaponsRegistry.ADAMANTINE_DRAGON_BONE_CLAYMORE,
                 WeaponsRegistry.ADAMANTINE_CLAYMORE,
                 WeaponsRegistry.BONE_CLAYMORE,
                 WeaponsRegistry.BRONZE_CLAYMORE,
@@ -193,7 +169,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.NETHERITE_CLAYMORE,
                 WeaponsRegistry.PALLADIUM_CLAYMORE,
                 WeaponsRegistry.PLATINUM_CLAYMORE,
-                // WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_CLAYMORE,
+                WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_CLAYMORE,
                 WeaponsRegistry.SHADOW_ADAMANTINE_CLAYMORE,
                 WeaponsRegistry.SILVER_CLAYMORE,
                 WeaponsRegistry.STEEL_CLAYMORE,
@@ -201,10 +177,10 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.TUNGSTEN_CARBIDE_CLAYMORE,
                 WeaponsRegistry.WOODEN_CLAYMORE,
 
-                // WeaponsRegistry.ADAMANTINE_DRAGON_BONE_DAGGER,
+                WeaponsRegistry.ADAMANTINE_DRAGON_BONE_DAGGER,
                 WeaponsRegistry.ADAMANTINE_DAGGER,
                 WeaponsRegistry.BONE_DAGGER,
-                // WeaponsRegistry.BRONZE_DAGGER,
+                WeaponsRegistry.BRONZE_DAGGER,
                 WeaponsRegistry.COLD_IRON_DAGGER,
                 WeaponsRegistry.COPPER_DAGGER,
                 WeaponsRegistry.DARK_STEEL_DAGGER,
@@ -218,7 +194,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.NETHERITE_DAGGER,
                 WeaponsRegistry.PALLADIUM_DAGGER,
                 WeaponsRegistry.PLATINUM_DAGGER,
-                // WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_DAGGER,
+                WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_DAGGER,
                 WeaponsRegistry.SHADOW_ADAMANTINE_DAGGER,
                 WeaponsRegistry.SILVER_DAGGER,
                 WeaponsRegistry.STEEL_DAGGER,
@@ -262,7 +238,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.DRAGON_BONE_GLAIVE,
                 WeaponsRegistry.ELVEN_STEEL_GLAIVE,
                 WeaponsRegistry.GOLDEN_GLAIVE,
-                // WeaponsRegistry.INFERNAL_IRON_GLAIVE,
+                WeaponsRegistry.INFERNAL_IRON_GLAIVE,
                 WeaponsRegistry.IRON_GLAIVE,
                 WeaponsRegistry.MITHRIL_GLAIVE,
                 WeaponsRegistry.NETHERITE_GLAIVE,
@@ -301,7 +277,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.TUNGSTEN_CARBIDE_GREATSWORD,
                 WeaponsRegistry.WOODEN_GREATSWORD,
 
-                // WeaponsRegistry.ADAMANTINE_DRAGON_BONE_HALBERD,
+                WeaponsRegistry.ADAMANTINE_DRAGON_BONE_HALBERD,
                 WeaponsRegistry.ADAMANTINE_HALBERD,
                 WeaponsRegistry.BONE_HALBERD,
                 WeaponsRegistry.BRONZE_HALBERD,
@@ -318,38 +294,13 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.NETHERITE_HALBERD,
                 WeaponsRegistry.PALLADIUM_HALBERD,
                 WeaponsRegistry.PLATINUM_HALBERD,
-                // WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_HALBERD,
+                WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_HALBERD,
                 WeaponsRegistry.SHADOW_ADAMANTINE_HALBERD,
                 WeaponsRegistry.SILVER_HALBERD,
                 WeaponsRegistry.STEEL_HALBERD,
                 WeaponsRegistry.STONE_HALBERD,
                 WeaponsRegistry.TUNGSTEN_CARBIDE_HALBERD,
                 WeaponsRegistry.WOODEN_HALBERD,
-
-                // WeaponsRegistry.ADAMANTINE_DRAGON_BONE_LONGSWORD,
-                // WeaponsRegistry.ADAMANTINE_LONGSWORD,
-                // WeaponsRegistry.BONE_LONGSWORD,
-                // WeaponsRegistry.BRONZE_LONGSWORD,
-                // WeaponsRegistry.COLD_IRON_LONGSWORD,
-                // WeaponsRegistry.COPPER_LONGSWORD,
-                // WeaponsRegistry.DARK_STEEL_LONGSWORD,
-                // WeaponsRegistry.DIAMOND_LONGSWORD,
-                // WeaponsRegistry.DRAGON_BONE_LONGSWORD,
-                // WeaponsRegistry.ELVEN_STEEL_LONGSWORD,
-                // WeaponsRegistry.GOLDEN_LONGSWORD,
-                // WeaponsRegistry.INFERNAL_IRON_LONGSWORD,
-                // WeaponsRegistry.IRON_LONGSWORD,
-                // WeaponsRegistry.MITHRIL_LONGSWORD,
-                // WeaponsRegistry.NETHERITE_LONGSWORD,
-                // WeaponsRegistry.PALLADIUM_LONGSWORD,
-                // WeaponsRegistry.PLATINUM_LONGSWORD,
-                // WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_LONGSWORD,
-                // WeaponsRegistry.SHADOW_ADAMANTINE_LONGSWORD,
-                // WeaponsRegistry.SILVER_LONGSWORD,
-                // WeaponsRegistry.STEEL_LONGSWORD,
-                // WeaponsRegistry.STONE_LONGSWORD,
-                // WeaponsRegistry.TUNGSTEN_CARBIDE_LONGSWORD,
-                // WeaponsRegistry.WOODEN_LONGSWORD,
 
                 WeaponsRegistry.ADAMANTINE_DRAGON_BONE_RAPIER,
                 WeaponsRegistry.ADAMANTINE_RAPIER,
@@ -523,7 +474,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.NETHERITE_CLAYMORE,
                 WeaponsRegistry.PALLADIUM_CLAYMORE,
                 WeaponsRegistry.PLATINUM_CLAYMORE,
-                // WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_CLAYMORE,
+                WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_CLAYMORE,
                 WeaponsRegistry.SHADOW_ADAMANTINE_CLAYMORE,
                 WeaponsRegistry.SILVER_CLAYMORE,
                 WeaponsRegistry.STEEL_CLAYMORE,
@@ -532,10 +483,10 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.WOODEN_CLAYMORE
         );
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.ITEM, new Identifier("c", "daggers"))).add(
-                // WeaponsRegistry.ADAMANTINE_DRAGON_BONE_DAGGER,
+                WeaponsRegistry.ADAMANTINE_DRAGON_BONE_DAGGER,
                 WeaponsRegistry.ADAMANTINE_DAGGER,
                 WeaponsRegistry.BONE_DAGGER,
-                // WeaponsRegistry.BRONZE_DAGGER,
+                WeaponsRegistry.BRONZE_DAGGER,
                 WeaponsRegistry.COLD_IRON_DAGGER,
                 WeaponsRegistry.COPPER_DAGGER,
                 WeaponsRegistry.DARK_STEEL_DAGGER,
@@ -549,7 +500,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.NETHERITE_DAGGER,
                 WeaponsRegistry.PALLADIUM_DAGGER,
                 WeaponsRegistry.PLATINUM_DAGGER,
-                // WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_DAGGER,
+                WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_DAGGER,
                 WeaponsRegistry.SHADOW_ADAMANTINE_DAGGER,
                 WeaponsRegistry.SILVER_DAGGER,
                 WeaponsRegistry.STEEL_DAGGER,
@@ -621,7 +572,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.DRAGON_BONE_GLAIVE,
                 WeaponsRegistry.ELVEN_STEEL_GLAIVE,
                 WeaponsRegistry.GOLDEN_GLAIVE,
-                // WeaponsRegistry.INFERNAL_IRON_GLAIVE,
+                WeaponsRegistry.INFERNAL_IRON_GLAIVE,
                 WeaponsRegistry.IRON_GLAIVE,
                 WeaponsRegistry.MITHRIL_GLAIVE,
                 WeaponsRegistry.NETHERITE_GLAIVE,
@@ -662,7 +613,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.WOODEN_GREATSWORD
         );
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.ITEM, new Identifier("c", "halberds"))).add(
-                // WeaponsRegistry.ADAMANTINE_DRAGON_BONE_HALBERD,
+                WeaponsRegistry.ADAMANTINE_DRAGON_BONE_HALBERD,
                 WeaponsRegistry.ADAMANTINE_HALBERD,
                 WeaponsRegistry.BONE_HALBERD,
                 WeaponsRegistry.BRONZE_HALBERD,
@@ -679,7 +630,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.NETHERITE_HALBERD,
                 WeaponsRegistry.PALLADIUM_HALBERD,
                 WeaponsRegistry.PLATINUM_HALBERD,
-                // WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_HALBERD,
+                WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_HALBERD,
                 WeaponsRegistry.SHADOW_ADAMANTINE_HALBERD,
                 WeaponsRegistry.SILVER_HALBERD,
                 WeaponsRegistry.STEEL_HALBERD,
@@ -687,32 +638,6 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.TUNGSTEN_CARBIDE_HALBERD,
                 WeaponsRegistry.WOODEN_HALBERD
         );
-        //getOrCreateTagBuilder(TagKey.of(RegistryKeys.ITEM, new Identifier("c", "handaxes"))).add(
-        //        // WeaponsRegistry.ADAMANTINE_DRAGON_BONE_HANDAXE,
-        //        WeaponsRegistry.ADAMANTINE_HANDAXE,
-        //        WeaponsRegistry.BONE_HANDAXE,
-        //        WeaponsRegistry.BRONZE_HANDAXE,
-        //        WeaponsRegistry.COLD_IRON_HANDAXE,
-        //        WeaponsRegistry.COPPER_HANDAXE,
-        //        WeaponsRegistry.DARK_STEEL_HANDAXE,
-        //        WeaponsRegistry.DIAMOND_HANDAXE,
-        //        WeaponsRegistry.DRAGON_BONE_HANDAXE,
-        //        WeaponsRegistry.ELVEN_STEEL_HANDAXE,
-        //        WeaponsRegistry.GOLDEN_HANDAXE,
-        //        WeaponsRegistry.INFERNAL_IRON_HANDAXE,
-        //        WeaponsRegistry.IRON_HANDAXE,
-        //        WeaponsRegistry.MITHRIL_HANDAXE,
-        //        WeaponsRegistry.NETHERITE_HANDAXE,
-        //        WeaponsRegistry.PALLADIUM_HANDAXE,
-        //        WeaponsRegistry.PLATINUM_HANDAXE,
-        //        // WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_HANDAXE,
-        //        WeaponsRegistry.SHADOW_ADAMANTINE_HANDAXE,
-        //        WeaponsRegistry.SILVER_HANDAXE,
-        //        WeaponsRegistry.STEEL_HANDAXE,
-        //        WeaponsRegistry.STONE_HANDAXE,
-        //        WeaponsRegistry.TUNGSTEN_CARBIDE_HANDAXE,
-        //        WeaponsRegistry.WOODEN_HANDAXE
-        //);
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.ITEM, new Identifier("c", "long_spears"))).add(
                 // WeaponsRegistry.ADAMANTINE_DRAGON_BONE_LONG_SPEAR,
                 WeaponsRegistry.ADAMANTINE_LONG_SPEAR,
@@ -731,7 +656,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.NETHERITE_LONG_SPEAR,
                 WeaponsRegistry.PALLADIUM_LONG_SPEAR,
                 WeaponsRegistry.PLATINUM_LONG_SPEAR,
-                // WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_LONG_SPEAR,
+                WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_LONG_SPEAR,
                 WeaponsRegistry.SHADOW_ADAMANTINE_LONG_SPEAR,
                 WeaponsRegistry.SILVER_LONG_SPEAR,
                 WeaponsRegistry.STEEL_LONG_SPEAR,
@@ -739,32 +664,6 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.TUNGSTEN_CARBIDE_LONG_SPEAR,
                 WeaponsRegistry.WOODEN_LONG_SPEAR
         );
-        // getOrCreateTagBuilder(TagKey.of(RegistryKeys.ITEM, new Identifier("c", "longswords"))).add(
-        //         // WeaponsRegistry.ADAMANTINE_DRAGON_BONE_LONGSWORD,
-        //         WeaponsRegistry.ADAMANTINE_LONGSWORD,
-        //         WeaponsRegistry.BONE_LONGSWORD,
-        //         WeaponsRegistry.BRONZE_LONGSWORD,
-        //         WeaponsRegistry.COLD_IRON_LONGSWORD,
-        //         WeaponsRegistry.COPPER_LONGSWORD,
-        //         WeaponsRegistry.DARK_STEEL_LONGSWORD,
-        //         WeaponsRegistry.DIAMOND_LONGSWORD,
-        //         WeaponsRegistry.DRAGON_BONE_LONGSWORD,
-        //         WeaponsRegistry.ELVEN_STEEL_LONGSWORD,
-        //         WeaponsRegistry.GOLDEN_LONGSWORD,
-        //         WeaponsRegistry.INFERNAL_IRON_LONGSWORD,
-        //         WeaponsRegistry.IRON_LONGSWORD,
-        //         WeaponsRegistry.MITHRIL_LONGSWORD,
-        //         WeaponsRegistry.NETHERITE_LONGSWORD,
-        //         WeaponsRegistry.PALLADIUM_LONGSWORD,
-        //         WeaponsRegistry.PLATINUM_LONGSWORD,
-        //         // WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_LONGSWORD,
-        //         WeaponsRegistry.SHADOW_ADAMANTINE_LONGSWORD,
-        //         WeaponsRegistry.SILVER_LONGSWORD,
-        //         WeaponsRegistry.STEEL_LONGSWORD,
-        //         WeaponsRegistry.STONE_LONGSWORD,
-        //         WeaponsRegistry.TUNGSTEN_CARBIDE_LONGSWORD,
-        //         WeaponsRegistry.WOODEN_LONGSWORD
-        // );
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.ITEM, new Identifier("c", "maces"))).add(
                 WeaponsRegistry.ADAMANTINE_DRAGON_BONE_MACE,
                 WeaponsRegistry.ADAMANTINE_MACE,
@@ -792,7 +691,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.WOODEN_MACE
         );
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.ITEM, new Identifier("c", "pikes"))).add(
-                // WeaponsRegistry.ADAMANTINE_DRAGON_BONE_PIKE,
+                WeaponsRegistry.ADAMANTINE_DRAGON_BONE_PIKE,
                 WeaponsRegistry.ADAMANTINE_PIKE,
                 WeaponsRegistry.BONE_PIKE,
                 WeaponsRegistry.BRONZE_PIKE,
@@ -809,7 +708,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.NETHERITE_PIKE,
                 WeaponsRegistry.PALLADIUM_PIKE,
                 WeaponsRegistry.PLATINUM_PIKE,
-                // WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_PIKE,
+                WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_PIKE,
                 WeaponsRegistry.SHADOW_ADAMANTINE_PIKE,
                 WeaponsRegistry.SILVER_PIKE,
                 WeaponsRegistry.STEEL_PIKE,
@@ -840,7 +739,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.SILVER_QUARTERSTAFF,
                 WeaponsRegistry.STEEL_QUARTERSTAFF,
                 WeaponsRegistry.STONE_QUARTERSTAFF,
-                // WeaponsRegistry.TUNGSTEN_CARBIDE_QUARTERSTAFF,
+                WeaponsRegistry.TUNGSTEN_CARBIDE_QUARTERSTAFF,
                 WeaponsRegistry.WOODEN_QUARTERSTAFF
         );
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.ITEM, new Identifier("c", "rapiers"))).add(
@@ -947,7 +846,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.TUNGSTEN_CARBIDE_SPEAR,
                 WeaponsRegistry.WOODEN_SPEAR,
 
-                // WeaponsRegistry.ADAMANTINE_DRAGON_BONE_TRIDENT,
+                WeaponsRegistry.ADAMANTINE_DRAGON_BONE_TRIDENT,
                 WeaponsRegistry.ADAMANTINE_TRIDENT,
                 WeaponsRegistry.BONE_TRIDENT,
                 WeaponsRegistry.BRONZE_TRIDENT,
@@ -964,7 +863,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.NETHERITE_TRIDENT,
                 WeaponsRegistry.PALLADIUM_TRIDENT,
                 WeaponsRegistry.PLATINUM_TRIDENT,
-                // WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_TRIDENT,
+                WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_TRIDENT,
                 WeaponsRegistry.SHADOW_ADAMANTINE_TRIDENT,
                 WeaponsRegistry.SILVER_TRIDENT,
                 WeaponsRegistry.STEEL_TRIDENT,
@@ -999,7 +898,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.WOODEN_SICKLE
         );
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.ITEM, new Identifier("c", "tridents"))).add(
-                // WeaponsRegistry.ADAMANTINE_DRAGON_BONE_TRIDENT,
+                WeaponsRegistry.ADAMANTINE_DRAGON_BONE_TRIDENT,
                 WeaponsRegistry.ADAMANTINE_TRIDENT,
                 WeaponsRegistry.BONE_TRIDENT,
                 WeaponsRegistry.BRONZE_TRIDENT,
@@ -1016,7 +915,7 @@ public class DragonsHoardWAItemTagProvider extends FabricTagProvider.ItemTagProv
                 WeaponsRegistry.NETHERITE_TRIDENT,
                 WeaponsRegistry.PALLADIUM_TRIDENT,
                 WeaponsRegistry.PLATINUM_TRIDENT,
-                // WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_TRIDENT,
+                WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_TRIDENT,
                 WeaponsRegistry.SHADOW_ADAMANTINE_TRIDENT,
                 WeaponsRegistry.SILVER_TRIDENT,
                 WeaponsRegistry.STEEL_TRIDENT,

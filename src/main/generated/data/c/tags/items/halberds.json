@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "dragonshoardwa:adamantine_dragon_bone_halberd",
     "dragonshoardwa:adamantine_halberd",
     "dragonshoardwa:bone_halberd",
     "dragonshoardwa:bronze_halberd",
@@ -17,6 +18,7 @@
     "dragonshoardwa:netherite_halberd",
     "dragonshoardwa:palladium_halberd",
     "dragonshoardwa:platinum_halberd",
+    "dragonshoardwa:shadow_adamantine_dragon_bone_halberd",
     "dragonshoardwa:shadow_adamantine_halberd",
     "dragonshoardwa:silver_halberd",
     "dragonshoardwa:steel_halberd",

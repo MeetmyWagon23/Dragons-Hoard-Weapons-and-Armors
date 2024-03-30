@@ -837,17 +837,13 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(WeaponsRegistry.TUNGSTEN_CARBIDE_WARHAMMER, "Tungsten Carbide Warhammer");
 
         translationBuilder.add(WeaponsRegistry.WOODEN_BATTLEAXE, "Wooden Battleaxe");
-        // translationBuilder.add(WeaponsRegistry.WOODEN_CAESTUS, "Wooden Caestus");
         translationBuilder.add(WeaponsRegistry.WOODEN_CLAYMORE, "Wooden Claymore");
         translationBuilder.add(WeaponsRegistry.WOODEN_DAGGER, "Wooden Dagger");
         translationBuilder.add(WeaponsRegistry.WOODEN_FALCHION, "Wooden Falchion");
-        // translationBuilder.add(WeaponsRegistry.WOODEN_GAUNTLET, "Wooden Gauntlet");
         translationBuilder.add(WeaponsRegistry.WOODEN_GLAIVE, "Wooden Glaive");
         translationBuilder.add(WeaponsRegistry.WOODEN_GREATSWORD, "Wooden Greatsword");
         translationBuilder.add(WeaponsRegistry.WOODEN_HALBERD, "Wooden Halberd");
-        // translationBuilder.add(WeaponsRegistry.WOODEN_HANDAXE, "Wooden Handaxe");
         translationBuilder.add(WeaponsRegistry.WOODEN_LONG_SPEAR, "Wooden Long Spear");
-        // translationBuilder.add(WeaponsRegistry.WOODEN_LONGSWORD, "Wooden Longsword");
         translationBuilder.add(WeaponsRegistry.WOODEN_MACE, "Wooden Mace");
         translationBuilder.add(WeaponsRegistry.WOODEN_PIKE, "Wooden Pike");
         translationBuilder.add(WeaponsRegistry.WOODEN_QUARTERSTAFF, "Wooden Quarterstaff");

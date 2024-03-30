@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.Item;
 
 public class DragonsHoardWAModelProvider extends FabricModelProvider {
     public DragonsHoardWAModelProvider(FabricDataOutput output) {
@@ -63,9 +64,6 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ItemsRegistry.RAW_ALUMINUM, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.ALUMINUM_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.ALUMINUM_INGOT, Models.GENERATED);
-        //itemModelGenerator.register(ItemsRegistry.RAW_BRASS, Models.GENERATED);
-        //itemModelGenerator.register(ItemsRegistry.BRASS_NUGGET, Models.GENERATED);
-        //itemModelGenerator.register(ItemsRegistry.BRASS_INGOT, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.RAW_BRONZE, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.BRONZE_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.BRONZE_INGOT, Models.GENERATED);
@@ -181,10 +179,6 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ToolsRegistry.BONE_AXE, Models.HANDHELD);
         itemModelGenerator.register(ToolsRegistry.BONE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ToolsRegistry.BONE_HOE, Models.HANDHELD);
-        // itemModelGenerator.register(ToolsRegistry.BRASS_PICKAXE, Models.HANDHELD);
-        // itemModelGenerator.register(ToolsRegistry.BRASS_AXE, Models.HANDHELD);
-        // itemModelGenerator.register(ToolsRegistry.BRASS_SHOVEL, Models.HANDHELD);
-        // itemModelGenerator.register(ToolsRegistry.BRASS_HOE, Models.HANDHELD);
         itemModelGenerator.register(ToolsRegistry.BRONZE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ToolsRegistry.BRONZE_AXE, Models.HANDHELD);
         itemModelGenerator.register(ToolsRegistry.BRONZE_SHOVEL, Models.HANDHELD);
@@ -213,10 +207,6 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ToolsRegistry.INFERNAL_IRON_AXE, Models.HANDHELD);
         itemModelGenerator.register(ToolsRegistry.INFERNAL_IRON_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ToolsRegistry.INFERNAL_IRON_HOE, Models.HANDHELD);
-        // itemModelGenerator.register(ToolsRegistry.ITANIUM_PICKAXE, Models.HANDHELD);
-        // itemModelGenerator.register(ToolsRegistry.ITANIUM_AXE, Models.HANDHELD);
-        // itemModelGenerator.register(ToolsRegistry.ITANIUM_SHOVEL, Models.HANDHELD);
-        // itemModelGenerator.register(ToolsRegistry.ITANIUM_HOE, Models.HANDHELD);
         itemModelGenerator.register(ToolsRegistry.MITHRIL_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ToolsRegistry.MITHRIL_AXE, Models.HANDHELD);
         itemModelGenerator.register(ToolsRegistry.MITHRIL_SHOVEL, Models.HANDHELD);
@@ -245,10 +235,6 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ToolsRegistry.STEEL_AXE, Models.HANDHELD);
         itemModelGenerator.register(ToolsRegistry.STEEL_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ToolsRegistry.STEEL_HOE, Models.HANDHELD);
-        // itemModelGenerator.register(ToolsRegistry.TITANIUM_PICKAXE, Models.HANDHELD);
-        // itemModelGenerator.register(ToolsRegistry.TITANIUM_AXE, Models.HANDHELD);
-        // itemModelGenerator.register(ToolsRegistry.TITANIUM_SHOVEL, Models.HANDHELD);
-        // itemModelGenerator.register(ToolsRegistry.TITANIUM_HOE, Models.HANDHELD);
         itemModelGenerator.register(ToolsRegistry.TUNGSTEN_CARBIDE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ToolsRegistry.TUNGSTEN_CARBIDE_AXE, Models.HANDHELD);
         itemModelGenerator.register(ToolsRegistry.TUNGSTEN_CARBIDE_SHOVEL, Models.HANDHELD);
@@ -267,16 +253,12 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         // ---------------------------------------------------------------------------------------
 
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_BATTLEAXE, Models.HANDHELD);
-        itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_FALCHION, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_PIKE, Models.HANDHELD);
@@ -295,11 +277,8 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_FALCHION, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_PIKE, Models.HANDHELD);
@@ -314,15 +293,11 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_WARHAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.BONE_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.BONE_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BONE_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BONE_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BONE_FALCHION, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.BONE_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BONE_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BONE_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.BONE_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.BONE_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BONE_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BONE_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BONE_PIKE, Models.HANDHELD);
@@ -337,15 +312,12 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.BONE_WARHAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.BRONZE_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.BRONZE_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BRONZE_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BRONZE_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BRONZE_FALCHION, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BRONZE_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BRONZE_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BRONZE_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.BRONZE_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.BRONZE_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BRONZE_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BRONZE_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.BRONZE_PIKE, Models.HANDHELD);
@@ -360,15 +332,12 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.BRONZE_WARHAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.COLD_IRON_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.COLD_IRON_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COLD_IRON_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COLD_IRON_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COLD_IRON_FALCHION, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COLD_IRON_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COLD_IRON_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COLD_IRON_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.COLD_IRON_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.COLD_IRON_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COLD_IRON_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COLD_IRON_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COLD_IRON_PIKE, Models.HANDHELD);
@@ -383,15 +352,12 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.COLD_IRON_WARHAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.COPPER_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.COPPER_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COPPER_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COPPER_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COPPER_FALCHION, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COPPER_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COPPER_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COPPER_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.COPPER_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.COPPER_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COPPER_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COPPER_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.COPPER_PIKE, Models.HANDHELD);
@@ -406,15 +372,12 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.COPPER_WARHAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_BATTLEAXE, Models.HANDHELD);
-        //itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_FALCHION, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_PIKE, Models.HANDHELD);
@@ -428,16 +391,31 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_TRIDENT, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_WARHAMMER, Models.HANDHELD);
 
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_BATTLEAXE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_CLAYMORE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_DAGGER, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_FALCHION, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_GAUNTLET, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_GLAIVE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_HALBERD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_LONG_SPEAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_MACE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_PIKE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_QUARTERSTAFF, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_RAPIER, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_SCIMITAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_SCYTHE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_SICKLE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_SPEAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_TRIDENT, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_WARHAMMER, Models.HANDHELD);
+
         itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_FALCHION, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_PIKE, Models.HANDHELD);
@@ -452,15 +430,12 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_WARHAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_FALCHION, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_PIKE, Models.HANDHELD);
@@ -474,16 +449,51 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_TRIDENT, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_WARHAMMER, Models.HANDHELD);
 
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_BATTLEAXE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_CLAYMORE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_DAGGER, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_FALCHION, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_GAUNTLET, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_GLAIVE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_HALBERD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_LONG_SPEAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_MACE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_PIKE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_QUARTERSTAFF, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_RAPIER, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_SCIMITAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_SCYTHE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_SICKLE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_SPEAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_TRIDENT, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_WARHAMMER, Models.HANDHELD);
+
+        itemModelGenerator.register(WeaponsRegistry.IRON_BATTLEAXE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_CLAYMORE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_DAGGER, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_FALCHION, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_GAUNTLET, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_GLAIVE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_HALBERD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_LONG_SPEAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_MACE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_PIKE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_QUARTERSTAFF, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_RAPIER, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_SCIMITAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_SCYTHE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_SICKLE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_SPEAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_TRIDENT, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_WARHAMMER, Models.HANDHELD);
+
         itemModelGenerator.register(WeaponsRegistry.INFERNAL_IRON_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.INFERNAL_IRON_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.INFERNAL_IRON_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.INFERNAL_IRON_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.INFERNAL_IRON_FALCHION, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.INFERNAL_IRON_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.INFERNAL_IRON_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.INFERNAL_IRON_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.INFERNAL_IRON_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.INFERNAL_IRON_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.INFERNAL_IRON_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.INFERNAL_IRON_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.INFERNAL_IRON_PIKE, Models.HANDHELD);
@@ -498,15 +508,12 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.INFERNAL_IRON_WARHAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.MITHRIL_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.MITHRIL_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.MITHRIL_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.MITHRIL_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.MITHRIL_FALCHION, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.MITHRIL_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.MITHRIL_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.MITHRIL_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.MITHRIL_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.MITHRIL_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.MITHRIL_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.MITHRIL_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.MITHRIL_PIKE, Models.HANDHELD);
@@ -521,15 +528,12 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.MITHRIL_WARHAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.PALLADIUM_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.PALLADIUM_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PALLADIUM_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PALLADIUM_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PALLADIUM_FALCHION, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PALLADIUM_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PALLADIUM_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PALLADIUM_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.PALLADIUM_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.PALLADIUM_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PALLADIUM_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PALLADIUM_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PALLADIUM_PIKE, Models.HANDHELD);
@@ -544,15 +548,12 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.PALLADIUM_WARHAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.PLATINUM_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.PLATINUM_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PLATINUM_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PLATINUM_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PLATINUM_FALCHION, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PLATINUM_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PLATINUM_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PLATINUM_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.PLATINUM_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.PLATINUM_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PLATINUM_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PLATINUM_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PLATINUM_PIKE, Models.HANDHELD);
@@ -567,15 +568,12 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.PLATINUM_WARHAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_FALCHION, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_PIKE, Models.HANDHELD);
@@ -590,15 +588,11 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_WARHAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_FALCHION, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_PIKE, Models.HANDHELD);
@@ -613,15 +607,12 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_WARHAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.SILVER_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.SILVER_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SILVER_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SILVER_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SILVER_FALCHION, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SILVER_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SILVER_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SILVER_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.SILVER_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.SILVER_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SILVER_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SILVER_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SILVER_PIKE, Models.HANDHELD);
@@ -636,15 +627,12 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.SILVER_WARHAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.STEEL_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.STEEL_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.STEEL_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.STEEL_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.STEEL_FALCHION, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.STEEL_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.STEEL_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.STEEL_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.STEEL_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.STEEL_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.STEEL_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.STEEL_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.STEEL_PIKE, Models.HANDHELD);
@@ -658,16 +646,31 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.STEEL_TRIDENT, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.STEEL_WARHAMMER, Models.HANDHELD);
 
+        itemModelGenerator.register(WeaponsRegistry.STONE_BATTLEAXE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_CLAYMORE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_DAGGER, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_FALCHION, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_GLAIVE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_HALBERD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_LONG_SPEAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_MACE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_PIKE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_QUARTERSTAFF, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_RAPIER, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_SCIMITAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_SCYTHE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_SICKLE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_SPEAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_TRIDENT, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_WARHAMMER, Models.HANDHELD);
+
         itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_BATTLEAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_FALCHION, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_GAUNTLET, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_GLAIVE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_HALBERD, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_HANDAXE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_LONG_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_MACE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_PIKE, Models.HANDHELD);
@@ -680,6 +683,67 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_TRIDENT, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_WARHAMMER, Models.HANDHELD);
+
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_BATTLEAXE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_CLAYMORE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_DAGGER, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_FALCHION, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_GAUNTLET, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_GLAIVE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_HALBERD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_LONG_SPEAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_MACE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_PIKE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_QUARTERSTAFF, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_RAPIER, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_SCIMITAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_SCYTHE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_SICKLE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_SPEAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_TRIDENT, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_WARHAMMER, Models.HANDHELD);
+
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STONE_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.GOLDEN_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.SILVER_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.COPPER_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.BRONZE_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.PLATINUM_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.BONE_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.IRON_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.INFERNAL_IRON_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.COLD_IRON_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.STEEL_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DIAMOND_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.PALLADIUM_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.MITHRIL_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_DRAGON_BONE_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_GREATSWORD, Models.HANDHELD);
+
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_BATTLEAXE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_CLAYMORE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_DAGGER, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_FALCHION, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_GLAIVE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_HALBERD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_LONG_SPEAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_MACE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_PIKE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_QUARTERSTAFF, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_RAPIER, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_SCIMITAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_SCYTHE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_SICKLE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_SPEAR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_TRIDENT, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.WOODEN_WARHAMMER, Models.HANDHELD);
 
         /*--------------------------------------------------------------------------------------------------
         ------------------------------------WEAPON-BLADES---------------------------------------------------
