@@ -858,5 +858,11 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(WeaponsRegistry.WOODEN_SICKLE, "Wooden Sickle");
         translationBuilder.add(WeaponsRegistry.WOODEN_TRIDENT, "Wooden Trident");
         translationBuilder.add(WeaponsRegistry.WOODEN_WARHAMMER, "Wooden Warhammer");
+        /*--------------------------------------------------------------------------------------------------------------
+        -------------------------------------------WEAPON-BLADES--------------------------------------------------------
+        --------------------------------------------------------------------------------------------------------------*/
+        translationBuilder.add(ItemsRegistry.WOOD_BATTLEAXE_HEAD, "Wooden Battleaxe Head");
+        translationBuilder.add(ItemsRegistry.STONE_BATTLEAXE_HEAD, "Stone Battleaxe Head");
+
     }
 }
