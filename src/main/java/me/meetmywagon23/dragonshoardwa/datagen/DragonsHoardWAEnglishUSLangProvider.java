@@ -855,10 +855,22 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(WeaponsRegistry.WOODEN_TRIDENT, "Wooden Trident");
         translationBuilder.add(WeaponsRegistry.WOODEN_WARHAMMER, "Wooden Warhammer");
         /*--------------------------------------------------------------------------------------------------------------
-        -------------------------------------------WEAPON-BLADES--------------------------------------------------------
+        -------------------------------------------WEAPON-TEMPLATES-----------------------------------------------------
         --------------------------------------------------------------------------------------------------------------*/
-        translationBuilder.add(ItemsRegistry.WOOD_BATTLEAXE_HEAD, "Wooden Battleaxe Head");
-        translationBuilder.add(ItemsRegistry.STONE_BATTLEAXE_HEAD, "Stone Battleaxe Head");
+        translationBuilder.add(ItemsRegistry.UNPATTEREND_TEMPLATE, "Unpatterend Template");
+        translationBuilder.add(ItemsRegistry.BATTLEAXE_HEAD_TEMPLATE, "Battleaxe Head Template");
+        translationBuilder.add(ItemsRegistry.CLAYMORE_BLADE_TEMPLATE, "Claymore Blade Template");
+        translationBuilder.add(ItemsRegistry.FALCHION_BLADE_TEMPLATE, "Falchion Head Template");
+        translationBuilder.add(ItemsRegistry.GLAIVE_BLADE_TEMPLATE, "Glaive Blade Template");
+        translationBuilder.add(ItemsRegistry.HALBERD_BLADE_TEMPLATE, "Halberd Blade Template");
+        translationBuilder.add(ItemsRegistry.GREATSWORD_BLADE_TEMPLATE, "Greatsword Blade Template");
+        translationBuilder.add(ItemsRegistry.LONG_SPEAR_BLADE_TEMPLATE, "Long Spear Blade Template");
+        translationBuilder.add(ItemsRegistry.MACE_HEAD_TEMPLATE, "Mace Head Template");
+        translationBuilder.add(ItemsRegistry.PIKE_BLADE_TEMPLATE, "Pike Blade Template");
+        translationBuilder.add(ItemsRegistry.SCIMITAR_BLADE_TEMPLATE, "Scimitar Blade Template");
+        translationBuilder.add(ItemsRegistry.SPEAR_HEAD_TEMPLATE, "Spear Head Template");
+        translationBuilder.add(ItemsRegistry.TRIDENT_FORK_TEMPLATE, "Trident Fork Template");
+        translationBuilder.add(ItemsRegistry.WARHAMMER_HEAD_TEMPLATE, "Warhammer Head Template");
 
     }
 }

@@ -410,6 +410,9 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.DIAMOND_TRIDENT, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DIAMOND_WARHAMMER, Models.HANDHELD);
 
+        itemModelGenerator.register(WeaponsRegistry.DRAGON_CLAW, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DRAGON_SCALE_CAESTUS, Models.HANDHELD);
+
         itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_BATTLEAXE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_DAGGER, Models.HANDHELD);
@@ -467,6 +470,8 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.GOLDEN_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.GOLDEN_TRIDENT, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.GOLDEN_WARHAMMER, Models.HANDHELD);
+
+        itemModelGenerator.register(WeaponsRegistry.LEATHER_CAESTUS, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.IRON_BATTLEAXE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.IRON_CLAYMORE, Models.HANDHELD);
@@ -588,6 +593,7 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_WARHAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_BATTLEAXE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_CAESTUS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_CLAYMORE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_FALCHION, Models.HANDHELD);
@@ -718,6 +724,7 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.DIAMOND_GREATSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ELVEN_STEEL_GREATSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DARK_STEEL_GREATSWORD, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.NETHERITE_GREATSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_GREATSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.PALLADIUM_GREATSWORD, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.TUNGSTEN_CARBIDE_GREATSWORD, Models.HANDHELD);
@@ -748,350 +755,67 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         /*--------------------------------------------------------------------------------------------------
         ------------------------------------WEAPON-BLADES---------------------------------------------------
         --------------------------------------------------------------------------------------------------*/
+        // TEMPLATES
+        itemModelGenerator.register(ItemsRegistry.UNPATTEREND_TEMPLATE, Models.HANDHELD);
         // BATTLEAXE HEADS
-        itemModelGenerator.register(ItemsRegistry.WOOD_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STONE_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.GOLDEN_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SILVER_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COPPER_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BRONZE_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PLATINUM_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BONE_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.IRON_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.INFERNAL_IRON_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COLD_IRON_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STEEL_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DIAMOND_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ELVEN_STEEL_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DARK_STEEL_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.NETHERITE_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DRAGON_BONE_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PALLADIUM_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.TUNGSTEN_CARBIDE_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.MITHRIL_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_DRAGON_BONE_BATTLEAXE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_BATTLEAXE_HEAD, Models.HANDHELD);
+        itemModelGenerator.register(ItemsRegistry.BATTLEAXE_HEAD_TEMPLATE, Models.HANDHELD);
+
         // CLAYMORE BLADES
-        itemModelGenerator.register(ItemsRegistry.WOOD_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STONE_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.GOLDEN_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SILVER_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COPPER_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BRONZE_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PLATINUM_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BONE_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.IRON_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.INFERNAL_IRON_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COLD_IRON_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STEEL_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DIAMOND_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ELVEN_STEEL_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DARK_STEEL_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.NETHERITE_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DRAGON_BONE_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PALLADIUM_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.TUNGSTEN_CARBIDE_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.MITHRIL_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_DRAGON_BONE_CLAYMORE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_CLAYMORE_BLADE, Models.HANDHELD);
+        itemModelGenerator.register(ItemsRegistry.CLAYMORE_BLADE_TEMPLATE, Models.HANDHELD);
+
         // FALCHION BLADES
-        itemModelGenerator.register(ItemsRegistry.WOOD_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STONE_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.GOLDEN_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SILVER_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COPPER_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BRONZE_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PLATINUM_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BONE_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.IRON_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.INFERNAL_IRON_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COLD_IRON_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STEEL_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DIAMOND_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ELVEN_STEEL_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DARK_STEEL_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.NETHERITE_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DRAGON_BONE_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PALLADIUM_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.TUNGSTEN_CARBIDE_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.MITHRIL_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_DRAGON_BONE_FALCHION_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_FALCHION_BLADE, Models.HANDHELD);
+        itemModelGenerator.register(ItemsRegistry.FALCHION_BLADE_TEMPLATE, Models.HANDHELD);
+
         // GLAIVE BLADES
-        itemModelGenerator.register(ItemsRegistry.WOOD_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STONE_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.GOLDEN_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SILVER_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COPPER_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BRONZE_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PLATINUM_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BONE_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.IRON_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.INFERNAL_IRON_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COLD_IRON_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STEEL_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DIAMOND_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ELVEN_STEEL_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DARK_STEEL_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.NETHERITE_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DRAGON_BONE_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PALLADIUM_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.TUNGSTEN_CARBIDE_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.MITHRIL_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_DRAGON_BONE_GLAIVE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_GLAIVE_BLADE, Models.HANDHELD);
+        itemModelGenerator.register(ItemsRegistry.GLAIVE_BLADE_TEMPLATE, Models.HANDHELD);
+
         // HALBERD BLADES
-        itemModelGenerator.register(ItemsRegistry.WOOD_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STONE_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.GOLDEN_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SILVER_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COPPER_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BRONZE_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PLATINUM_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BONE_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.IRON_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.INFERNAL_IRON_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COLD_IRON_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STEEL_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DIAMOND_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ELVEN_STEEL_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DARK_STEEL_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.NETHERITE_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DRAGON_BONE_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PALLADIUM_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.TUNGSTEN_CARBIDE_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.MITHRIL_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_DRAGON_BONE_HALBERD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_HALBERD_BLADE, Models.HANDHELD);
+        itemModelGenerator.register(ItemsRegistry.HALBERD_BLADE_TEMPLATE, Models.HANDHELD);
+
         // GREATSWORD BLADES
-        itemModelGenerator.register(ItemsRegistry.WOOD_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STONE_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.GOLDEN_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SILVER_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COPPER_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BRONZE_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PLATINUM_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BONE_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.IRON_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.INFERNAL_IRON_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COLD_IRON_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STEEL_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DIAMOND_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ELVEN_STEEL_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DARK_STEEL_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.NETHERITE_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DRAGON_BONE_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PALLADIUM_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.TUNGSTEN_CARBIDE_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.MITHRIL_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_DRAGON_BONE_GREATSWORD_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_GREATSWORD_BLADE, Models.HANDHELD);
+        itemModelGenerator.register(ItemsRegistry.GREATSWORD_BLADE_TEMPLATE, Models.HANDHELD);
+
         // LONG SPEAR BLADES
-        itemModelGenerator.register(ItemsRegistry.WOOD_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STONE_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.GOLDEN_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SILVER_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COPPER_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BRONZE_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PLATINUM_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BONE_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.IRON_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.INFERNAL_IRON_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COLD_IRON_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STEEL_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DIAMOND_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ELVEN_STEEL_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DARK_STEEL_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.NETHERITE_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DRAGON_BONE_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PALLADIUM_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.TUNGSTEN_CARBIDE_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.MITHRIL_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_DRAGON_BONE_LONG_SPEAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_LONG_SPEAR_BLADE, Models.HANDHELD);
+        itemModelGenerator.register(ItemsRegistry.LONG_SPEAR_BLADE_TEMPLATE, Models.HANDHELD);
+
         // MACE HEADS
-        itemModelGenerator.register(ItemsRegistry.WOOD_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STONE_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.GOLDEN_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SILVER_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COPPER_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BRONZE_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PLATINUM_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BONE_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.IRON_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.INFERNAL_IRON_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COLD_IRON_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STEEL_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DIAMOND_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ELVEN_STEEL_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DARK_STEEL_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.NETHERITE_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DRAGON_BONE_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PALLADIUM_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.TUNGSTEN_CARBIDE_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.MITHRIL_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_DRAGON_BONE_MACE_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_MACE_HEAD, Models.HANDHELD);
+        itemModelGenerator.register(ItemsRegistry.MACE_HEAD_TEMPLATE, Models.HANDHELD);
+
         // PIKE BLADES
-        itemModelGenerator.register(ItemsRegistry.WOOD_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STONE_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.GOLDEN_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SILVER_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COPPER_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BRONZE_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PLATINUM_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BONE_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.IRON_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.INFERNAL_IRON_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COLD_IRON_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STEEL_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DIAMOND_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ELVEN_STEEL_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DARK_STEEL_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.NETHERITE_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DRAGON_BONE_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PALLADIUM_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.TUNGSTEN_CARBIDE_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.MITHRIL_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_DRAGON_BONE_PIKE_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_PIKE_BLADE, Models.HANDHELD);
+        itemModelGenerator.register(ItemsRegistry.PIKE_BLADE_TEMPLATE, Models.HANDHELD);
+
         // SCIMITAR BLADES
-        itemModelGenerator.register(ItemsRegistry.WOOD_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STONE_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.GOLDEN_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SILVER_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COPPER_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BRONZE_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PLATINUM_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BONE_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.IRON_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.INFERNAL_IRON_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COLD_IRON_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STEEL_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DIAMOND_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ELVEN_STEEL_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DARK_STEEL_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.NETHERITE_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DRAGON_BONE_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PALLADIUM_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.TUNGSTEN_CARBIDE_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.MITHRIL_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_DRAGON_BONE_SCIMITAR_BLADE, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_SCIMITAR_BLADE, Models.HANDHELD);
+        itemModelGenerator.register(ItemsRegistry.SCIMITAR_BLADE_TEMPLATE, Models.HANDHELD);
+
         // SPEAR HEADS
-        itemModelGenerator.register(ItemsRegistry.WOOD_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STONE_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.GOLDEN_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SILVER_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COPPER_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BRONZE_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PLATINUM_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BONE_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.IRON_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.INFERNAL_IRON_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COLD_IRON_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STEEL_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DIAMOND_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ELVEN_STEEL_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DARK_STEEL_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.NETHERITE_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DRAGON_BONE_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PALLADIUM_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.TUNGSTEN_CARBIDE_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.MITHRIL_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_DRAGON_BONE_SPEAR_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_SPEAR_HEAD, Models.HANDHELD);
+        itemModelGenerator.register(ItemsRegistry.SPEAR_HEAD_TEMPLATE, Models.HANDHELD);
+
         // TRIDENT FORKS
-        itemModelGenerator.register(ItemsRegistry.WOOD_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STONE_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.GOLDEN_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SILVER_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COPPER_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BRONZE_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PLATINUM_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BONE_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.IRON_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.INFERNAL_IRON_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COLD_IRON_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STEEL_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DIAMOND_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ELVEN_STEEL_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DARK_STEEL_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.NETHERITE_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DRAGON_BONE_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PALLADIUM_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.TUNGSTEN_CARBIDE_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.MITHRIL_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_DRAGON_BONE_TRIDENT_FORK, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_TRIDENT_FORK, Models.HANDHELD);
+        itemModelGenerator.register(ItemsRegistry.TRIDENT_FORK_TEMPLATE, Models.HANDHELD);
+
         // WARHAMMER HEADS
-        itemModelGenerator.register(ItemsRegistry.WOOD_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STONE_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.GOLDEN_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SILVER_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COPPER_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BRONZE_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PLATINUM_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.BONE_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.IRON_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.INFERNAL_IRON_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.COLD_IRON_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.STEEL_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DIAMOND_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ELVEN_STEEL_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DARK_STEEL_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.NETHERITE_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.DRAGON_BONE_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.PALLADIUM_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.TUNGSTEN_CARBIDE_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.MITHRIL_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.ADAMANTINE_DRAGON_BONE_WARHAMMER_HEAD, Models.HANDHELD);
-        itemModelGenerator.register(ItemsRegistry.SHADOW_ADAMANTINE_DRAGON_BONE_WARHAMMER_HEAD, Models.HANDHELD);
+        itemModelGenerator.register(ItemsRegistry.WARHAMMER_HEAD_TEMPLATE, Models.HANDHELD);
+
+
 
 
         // -------------------------------------------------------------------------------------------------
         // ---------------------------------Divine Weapons--------------------------------------------------
-        // -------------------------------------------------------------------------------------------------
+        // -------------------------REMOVED AFTER GENERATION WAS COMPLETED----------------------------------
 
-        itemModelGenerator.register(WeaponsRegistry.ATROPOS, Models.HANDHELD);
+        // itemModelGenerator.register(WeaponsRegistry.ATROPOS, Models.HANDHELD);
 
         // -------------------------------------------------------------------------------------------------
         // ---------------------------------Twitch Community Skins------------------------------------------
-        // -------------------------Remove after generation is completed 1 time-----------------------------
+        // -------------------------REMOVED AFTER GENERATION WAS COMPLETED----------------------------------
         // Snow-Angels set
-        itemModelGenerator.register(WeaponsRegistry.SNOWDRIFT_FROSTREAPER, Models.HANDHELD);
-        itemModelGenerator.register(WeaponsRegistry.PURITYS_FROSTFALL_SERENADE, Models.HANDHELD);
-        itemModelGenerator.register(WeaponsRegistry.MALEVOLENT_ARCTIC_DESPAIR, Models.HANDHELD);
+        // itemModelGenerator.register(WeaponsRegistry.SNOWDRIFT_FROSTREAPER, Models.HANDHELD);
+        // itemModelGenerator.register(WeaponsRegistry.PURITYS_FROSTFALL_SERENADE, Models.HANDHELD);
+        // itemModelGenerator.register(WeaponsRegistry.MALEVOLENT_ARCTIC_DESPAIR, Models.HANDHELD);
         // Phoenix's Set
-        itemModelGenerator.register(WeaponsRegistry.EMBERWING_SCORNBLADE, Models.HANDHELD);
-        itemModelGenerator.register(WeaponsRegistry.SERAPHIC_PLUMEREAVER, Models.HANDHELD);
-        itemModelGenerator.register(WeaponsRegistry.DEMONIC_PYROFEATHER, Models.HANDHELD);
+        // itemModelGenerator.register(WeaponsRegistry.EMBERWING_SCORNBLADE, Models.HANDHELD);
+        // itemModelGenerator.register(WeaponsRegistry.SERAPHIC_PLUMEREAVER, Models.HANDHELD);
+        // itemModelGenerator.register(WeaponsRegistry.DEMONIC_PYROFEATHER, Models.HANDHELD);
         // INSPIRING_SUNFIRE This weapon was created from Codeium, nice name. May use this later.
         //  Backup Cups set
         //itemModelGenerator.register(WeaponsRegistry.CUPS_CLAYMORE, Models.HANDHELD);

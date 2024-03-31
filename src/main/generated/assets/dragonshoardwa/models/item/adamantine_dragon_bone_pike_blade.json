@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "dragonshoardwa:item/adamantine_dragon_bone_pike_blade"
-  }
-}

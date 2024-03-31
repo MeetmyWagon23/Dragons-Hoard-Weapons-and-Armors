@@ -209,363 +209,40 @@ public class ItemsRegistry {
     public static final Item TUNGSTEN_DUST = registerItems("tungsten_dust", new Item(new Item.Settings()));
     public static final Item ZINC_DUST = registerItems("zinc_dust", new Item(new Item.Settings()));
     /*------------------------------------------------------------------------------------------------------------------
-    --------------------------------------------------WEAPON-BLADES-----------------------------------------------------
+    --------------------------------------------------WEAPON_TEMPLATES--------------------------------------------------
     ------------------------------------------------------------------------------------------------------------------*/
+    // Templates
+    public static final Item UNPATTEREND_TEMPLATE = registerItems("unpatterend_template", new Item(new Item.Settings()));
     // Battle Axe Heads
-    public static final Item WOOD_BATTLEAXE_HEAD = registerItems("wood_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item STONE_BATTLEAXE_HEAD = registerItems("stone_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item GOLDEN_BATTLEAXE_HEAD = registerItems("golden_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item SILVER_BATTLEAXE_HEAD = registerItems("silver_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item COPPER_BATTLEAXE_HEAD = registerItems("copper_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item BRONZE_BATTLEAXE_HEAD = registerItems("bronze_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item PLATINUM_BATTLEAXE_HEAD = registerItems("platinum_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item BONE_BATTLEAXE_HEAD = registerItems("bone_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item IRON_BATTLEAXE_HEAD = registerItems("iron_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item INFERNAL_IRON_BATTLEAXE_HEAD = registerItems("infernal_iron_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item COLD_IRON_BATTLEAXE_HEAD = registerItems("cold_iron_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item STEEL_BATTLEAXE_HEAD = registerItems("steel_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item DIAMOND_BATTLEAXE_HEAD = registerItems("diamond_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item ELVEN_STEEL_BATTLEAXE_HEAD = registerItems("elven_steel_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item DARK_STEEL_BATTLEAXE_HEAD = registerItems("dark_steel_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item NETHERITE_BATTLEAXE_HEAD = registerItems("netherite_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item DRAGON_BONE_BATTLEAXE_HEAD = registerItems("dragon_bone_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item PALLADIUM_BATTLEAXE_HEAD = registerItems("palladium_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item TUNGSTEN_CARBIDE_BATTLEAXE_HEAD = registerItems("tungsten_carbide_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item MITHRIL_BATTLEAXE_HEAD = registerItems("mithril_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_BATTLEAXE_HEAD = registerItems("adamantine_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_BATTLEAXE_HEAD = registerItems("shadow_adamantine_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_DRAGON_BONE_BATTLEAXE_HEAD = registerItems("adamantine_dragon_bone_battleaxe_head", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_DRAGON_BONE_BATTLEAXE_HEAD = registerItems("shadow_adamantine_dragon_bone_battleaxe_head", new Item(new Item.Settings()));
-    // Divine is used for a base for ALL Divine weapons.
-    // public static final Item DIVINE_BATTLEAXE_HEAD = registerItems("divine_battleaxe_head", new Item(new Item.Settings()));
+    public static final Item BATTLEAXE_HEAD_TEMPLATE = registerItems("battleaxe_head_template", new Item(new Item.Settings()));
     // Claymores
-    public static final Item WOOD_CLAYMORE_BLADE = registerItems("wood_claymore_blade", new Item(new Item.Settings()));
-    public static final Item STONE_CLAYMORE_BLADE = registerItems("stone_claymore_blade", new Item(new Item.Settings()));
-    public static final Item GOLDEN_CLAYMORE_BLADE = registerItems("golden_claymore_blade", new Item(new Item.Settings()));
-    public static final Item SILVER_CLAYMORE_BLADE = registerItems("silver_claymore_blade", new Item(new Item.Settings()));
-    public static final Item COPPER_CLAYMORE_BLADE = registerItems("copper_claymore_blade", new Item(new Item.Settings()));
-    public static final Item BRONZE_CLAYMORE_BLADE = registerItems("bronze_claymore_blade", new Item(new Item.Settings()));
-    public static final Item PLATINUM_CLAYMORE_BLADE = registerItems("platinum_claymore_blade", new Item(new Item.Settings()));
-    public static final Item BONE_CLAYMORE_BLADE = registerItems("bone_claymore_blade", new Item(new Item.Settings()));
-    public static final Item IRON_CLAYMORE_BLADE = registerItems("iron_claymore_blade", new Item(new Item.Settings()));
-    public static final Item INFERNAL_IRON_CLAYMORE_BLADE = registerItems("infernal_iron_claymore_blade", new Item(new Item.Settings()));
-    public static final Item COLD_IRON_CLAYMORE_BLADE = registerItems("cold_iron_claymore_blade", new Item(new Item.Settings()));
-    public static final Item STEEL_CLAYMORE_BLADE = registerItems("steel_claymore_blade", new Item(new Item.Settings()));
-    public static final Item DIAMOND_CLAYMORE_BLADE = registerItems("diamond_claymore_blade", new Item(new Item.Settings()));
-    public static final Item ELVEN_STEEL_CLAYMORE_BLADE = registerItems("elven_steel_claymore_blade", new Item(new Item.Settings()));
-    public static final Item DARK_STEEL_CLAYMORE_BLADE = registerItems("dark_steel_claymore_blade", new Item(new Item.Settings()));
-    public static final Item NETHERITE_CLAYMORE_BLADE = registerItems("netherite_claymore_blade", new Item(new Item.Settings()));
-    public static final Item DRAGON_BONE_CLAYMORE_BLADE = registerItems("dragon_bone_claymore_blade", new Item(new Item.Settings()));
-    public static final Item PALLADIUM_CLAYMORE_BLADE = registerItems("palladium_claymore_blade", new Item(new Item.Settings()));
-    public static final Item TUNGSTEN_CARBIDE_CLAYMORE_BLADE = registerItems("tungsten_carbide_claymore_blade", new Item(new Item.Settings()));
-    public static final Item MITHRIL_CLAYMORE_BLADE = registerItems("mithril_claymore_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_CLAYMORE_BLADE = registerItems("adamantine_claymore_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_CLAYMORE_BLADE = registerItems("shadow_adamantine_claymore_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_DRAGON_BONE_CLAYMORE_BLADE = registerItems("adamantine_dragon_bone_claymore_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_DRAGON_BONE_CLAYMORE_BLADE = registerItems("shadow_adamantine_dragon_bone_claymore_blade", new Item(new Item.Settings()));
-    // Divine is used for a base for ALL Divine weapons.
-    // public static final Item DIVINE_CLAYMORE_BLADE = registerItems("divine_claymore_blade", new Item(new Item.Settings()));
+    public static final Item CLAYMORE_BLADE_TEMPLATE = registerItems("claymore_blade_template", new Item(new Item.Settings()));
     // Falchion Blades
-    public static final Item WOOD_FALCHION_BLADE = registerItems("wood_falchion_blade", new Item(new Item.Settings()));
-    public static final Item STONE_FALCHION_BLADE = registerItems("stone_falchion_blade", new Item(new Item.Settings()));
-    public static final Item GOLDEN_FALCHION_BLADE = registerItems("golden_falchion_blade", new Item(new Item.Settings()));
-    public static final Item SILVER_FALCHION_BLADE = registerItems("silver_falchion_blade", new Item(new Item.Settings()));
-    public static final Item COPPER_FALCHION_BLADE = registerItems("copper_falchion_blade", new Item(new Item.Settings()));
-    public static final Item BRONZE_FALCHION_BLADE = registerItems("bronze_falchion_blade", new Item(new Item.Settings()));
-    public static final Item PLATINUM_FALCHION_BLADE = registerItems("platinum_falchion_blade", new Item(new Item.Settings()));
-    public static final Item BONE_FALCHION_BLADE = registerItems("bone_falchion_blade", new Item(new Item.Settings()));
-    public static final Item IRON_FALCHION_BLADE = registerItems("iron_falchion_blade", new Item(new Item.Settings()));
-    public static final Item INFERNAL_IRON_FALCHION_BLADE = registerItems("infernal_iron_falchion_blade", new Item(new Item.Settings()));
-    public static final Item COLD_IRON_FALCHION_BLADE = registerItems("cold_iron_falchion_blade", new Item(new Item.Settings()));
-    public static final Item STEEL_FALCHION_BLADE = registerItems("steel_falchion_blade", new Item(new Item.Settings()));
-    public static final Item DIAMOND_FALCHION_BLADE = registerItems("diamond_falchion_blade", new Item(new Item.Settings()));
-    public static final Item ELVEN_STEEL_FALCHION_BLADE = registerItems("elven_steel_falchion_blade", new Item(new Item.Settings()));
-    public static final Item DARK_STEEL_FALCHION_BLADE = registerItems("dark_steel_falchion_blade", new Item(new Item.Settings()));
-    public static final Item NETHERITE_FALCHION_BLADE = registerItems("netherite_falchion_blade", new Item(new Item.Settings()));
-    public static final Item DRAGON_BONE_FALCHION_BLADE = registerItems("dragon_bone_falchion_blade", new Item(new Item.Settings()));
-    public static final Item PALLADIUM_FALCHION_BLADE = registerItems("palladium_falchion_blade", new Item(new Item.Settings()));
-    public static final Item TUNGSTEN_CARBIDE_FALCHION_BLADE = registerItems("tungsten_carbide_falchion_blade", new Item(new Item.Settings()));
-    public static final Item MITHRIL_FALCHION_BLADE = registerItems("mithril_falchion_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_FALCHION_BLADE = registerItems("adamantine_falchion_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_FALCHION_BLADE = registerItems("shadow_adamantine_falchion_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_DRAGON_BONE_FALCHION_BLADE = registerItems("adamantine_dragon_bone_falchion_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_DRAGON_BONE_FALCHION_BLADE = registerItems("shadow_adamantine_dragon_bone_falchion_blade", new Item(new Item.Settings()));
-    // Divine is used for a base for ALL Divine weapons.
-    // public static final Item DIVINE_FALCHION_BLADE = registerItems("divine_falchion_blade", new Item(new Item.Settings()));
+    public static final Item FALCHION_BLADE_TEMPLATE = registerItems("falchion_blade_template", new Item(new Item.Settings()));
     // Glaive Blades
-    public static final Item WOOD_GLAIVE_BLADE = registerItems("wood_glaive_blade", new Item(new Item.Settings()));
-    public static final Item STONE_GLAIVE_BLADE = registerItems("stone_glaive_blade", new Item(new Item.Settings()));
-    public static final Item GOLDEN_GLAIVE_BLADE = registerItems("golden_glaive_blade", new Item(new Item.Settings()));
-    public static final Item SILVER_GLAIVE_BLADE = registerItems("silver_glaive_blade", new Item(new Item.Settings()));
-    public static final Item COPPER_GLAIVE_BLADE = registerItems("copper_glaive_blade", new Item(new Item.Settings()));
-    public static final Item BRONZE_GLAIVE_BLADE = registerItems("bronze_glaive_blade", new Item(new Item.Settings()));
-    public static final Item PLATINUM_GLAIVE_BLADE = registerItems("platinum_glaive_blade", new Item(new Item.Settings()));
-    public static final Item BONE_GLAIVE_BLADE = registerItems("bone_glaive_blade", new Item(new Item.Settings()));
-    public static final Item IRON_GLAIVE_BLADE = registerItems("iron_glaive_blade", new Item(new Item.Settings()));
-    public static final Item INFERNAL_IRON_GLAIVE_BLADE = registerItems("infernal_iron_glaive_blade", new Item(new Item.Settings()));
-    public static final Item COLD_IRON_GLAIVE_BLADE = registerItems("cold_iron_glaive_blade", new Item(new Item.Settings()));
-    public static final Item STEEL_GLAIVE_BLADE = registerItems("steel_glaive_blade", new Item(new Item.Settings()));
-    public static final Item DIAMOND_GLAIVE_BLADE = registerItems("diamond_glaive_blade", new Item(new Item.Settings()));
-    public static final Item ELVEN_STEEL_GLAIVE_BLADE = registerItems("elven_steel_glaive_blade", new Item(new Item.Settings()));
-    public static final Item DARK_STEEL_GLAIVE_BLADE = registerItems("dark_steel_glaive_blade", new Item(new Item.Settings()));
-    public static final Item NETHERITE_GLAIVE_BLADE = registerItems("netherite_glaive_blade", new Item(new Item.Settings()));
-    public static final Item DRAGON_BONE_GLAIVE_BLADE = registerItems("dragon_bone_glaive_blade", new Item(new Item.Settings()));
-    public static final Item PALLADIUM_GLAIVE_BLADE = registerItems("palladium_glaive_blade", new Item(new Item.Settings()));
-    public static final Item TUNGSTEN_CARBIDE_GLAIVE_BLADE = registerItems("tungsten_carbide_glaive_blade", new Item(new Item.Settings()));
-    public static final Item MITHRIL_GLAIVE_BLADE = registerItems("mithril_glaive_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_GLAIVE_BLADE = registerItems("adamantine_glaive_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_GLAIVE_BLADE = registerItems("shadow_adamantine_glaive_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_DRAGON_BONE_GLAIVE_BLADE = registerItems("adamantine_dragon_bone_glaive_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_DRAGON_BONE_GLAIVE_BLADE = registerItems("shadow_adamantine_dragon_bone_glaive_blade", new Item(new Item.Settings()));
-    // Divine is used for a base for ALL Divine weapons.
-    // public static final Item DIVINE_GLAIVE_BLADE = registerItems("divine_glaive_blade", new Item(new Item.Settings()));
+    public static final Item GLAIVE_BLADE_TEMPLATE = registerItems("glaive_blade_template", new Item(new Item.Settings()));
     // Halberd Blades
-    public static final Item WOOD_HALBERD_BLADE = registerItems("wood_halberd_blade", new Item(new Item.Settings()));
-    public static final Item STONE_HALBERD_BLADE = registerItems("stone_halberd_blade", new Item(new Item.Settings()));
-    public static final Item GOLDEN_HALBERD_BLADE = registerItems("golden_halberd_blade", new Item(new Item.Settings()));
-    public static final Item SILVER_HALBERD_BLADE = registerItems("silver_halberd_blade", new Item(new Item.Settings()));
-    public static final Item COPPER_HALBERD_BLADE = registerItems("copper_halberd_blade", new Item(new Item.Settings()));
-    public static final Item BRONZE_HALBERD_BLADE = registerItems("bronze_halberd_blade", new Item(new Item.Settings()));
-    public static final Item PLATINUM_HALBERD_BLADE = registerItems("platinum_halberd_blade", new Item(new Item.Settings()));
-    public static final Item BONE_HALBERD_BLADE = registerItems("bone_halberd_blade", new Item(new Item.Settings()));
-    public static final Item IRON_HALBERD_BLADE = registerItems("iron_halberd_blade", new Item(new Item.Settings()));
-    public static final Item INFERNAL_IRON_HALBERD_BLADE = registerItems("infernal_iron_halberd_blade", new Item(new Item.Settings()));
-    public static final Item COLD_IRON_HALBERD_BLADE = registerItems("cold_iron_halberd_blade", new Item(new Item.Settings()));
-    public static final Item STEEL_HALBERD_BLADE = registerItems("steel_halberd_blade", new Item(new Item.Settings()));
-    public static final Item DIAMOND_HALBERD_BLADE = registerItems("diamond_halberd_blade", new Item(new Item.Settings()));
-    public static final Item ELVEN_STEEL_HALBERD_BLADE = registerItems("elven_steel_halberd_blade", new Item(new Item.Settings()));
-    public static final Item DARK_STEEL_HALBERD_BLADE = registerItems("dark_steel_halberd_blade", new Item(new Item.Settings()));
-    public static final Item NETHERITE_HALBERD_BLADE = registerItems("netherite_halberd_blade", new Item(new Item.Settings()));
-    public static final Item DRAGON_BONE_HALBERD_BLADE = registerItems("dragon_bone_halberd_blade", new Item(new Item.Settings()));
-    public static final Item PALLADIUM_HALBERD_BLADE = registerItems("palladium_halberd_blade", new Item(new Item.Settings()));
-    public static final Item TUNGSTEN_CARBIDE_HALBERD_BLADE = registerItems("tungsten_carbide_halberd_blade", new Item(new Item.Settings()));
-    public static final Item MITHRIL_HALBERD_BLADE = registerItems("mithril_halberd_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_HALBERD_BLADE = registerItems("adamantine_halberd_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_HALBERD_BLADE = registerItems("shadow_adamantine_halberd_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_DRAGON_BONE_HALBERD_BLADE = registerItems("adamantine_dragon_bone_halberd_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_DRAGON_BONE_HALBERD_BLADE = registerItems("shadow_adamantine_dragon_bone_halberd_blade", new Item(new Item.Settings()));
-    // Divine is used for a base for ALL Divine weapons.
-    // public static final Item DIVINE_HALBERD_BLADE = registerItems("divine_halberd_blade", new Item(new Item.Settings()));
+    public static final Item HALBERD_BLADE_TEMPLATE = registerItems("halberd_blade_template", new Item(new Item.Settings()));
     // Greatsword Blades
-    public static final Item WOOD_GREATSWORD_BLADE = registerItems("wood_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item STONE_GREATSWORD_BLADE = registerItems("stone_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item GOLDEN_GREATSWORD_BLADE = registerItems("golden_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item SILVER_GREATSWORD_BLADE = registerItems("silver_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item COPPER_GREATSWORD_BLADE = registerItems("copper_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item BRONZE_GREATSWORD_BLADE = registerItems("bronze_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item PLATINUM_GREATSWORD_BLADE = registerItems("platinum_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item BONE_GREATSWORD_BLADE = registerItems("bone_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item IRON_GREATSWORD_BLADE = registerItems("iron_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item INFERNAL_IRON_GREATSWORD_BLADE = registerItems("infernal_iron_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item COLD_IRON_GREATSWORD_BLADE = registerItems("cold_iron_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item STEEL_GREATSWORD_BLADE = registerItems("steel_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item DIAMOND_GREATSWORD_BLADE = registerItems("diamond_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item ELVEN_STEEL_GREATSWORD_BLADE = registerItems("elven_steel_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item DARK_STEEL_GREATSWORD_BLADE = registerItems("dark_steel_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item NETHERITE_GREATSWORD_BLADE = registerItems("netherite_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item DRAGON_BONE_GREATSWORD_BLADE = registerItems("dragon_bone_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item PALLADIUM_GREATSWORD_BLADE = registerItems("palladium_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item TUNGSTEN_CARBIDE_GREATSWORD_BLADE = registerItems("tungsten_carbide_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item MITHRIL_GREATSWORD_BLADE = registerItems("mithril_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_GREATSWORD_BLADE = registerItems("adamantine_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_GREATSWORD_BLADE = registerItems("shadow_adamantine_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_DRAGON_BONE_GREATSWORD_BLADE = registerItems("adamantine_dragon_bone_greatsword_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_DRAGON_BONE_GREATSWORD_BLADE = registerItems("shadow_adamantine_dragon_bone_greatsword_blade", new Item(new Item.Settings()));
-    // Divine is a placeholder for all Divine Greatswords.
-    //public static final Item DIVINE_GREATSWORD_BLADE = registerItems("divine_greatsword_blade", new Item(new Item.Settings()));
+    public static final Item GREATSWORD_BLADE_TEMPLATE = registerItems("greatsword_blade_template", new Item(new Item.Settings()));
     // Long spear Blades
-    public static final Item WOOD_LONG_SPEAR_BLADE = registerItems("wood_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item STONE_LONG_SPEAR_BLADE = registerItems("stone_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item GOLDEN_LONG_SPEAR_BLADE = registerItems("golden_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item SILVER_LONG_SPEAR_BLADE = registerItems("silver_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item COPPER_LONG_SPEAR_BLADE = registerItems("copper_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item BRONZE_LONG_SPEAR_BLADE = registerItems("bronze_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item PLATINUM_LONG_SPEAR_BLADE = registerItems("platinum_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item BONE_LONG_SPEAR_BLADE = registerItems("bone_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item IRON_LONG_SPEAR_BLADE = registerItems("iron_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item INFERNAL_IRON_LONG_SPEAR_BLADE = registerItems("infernal_iron_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item COLD_IRON_LONG_SPEAR_BLADE = registerItems("cold_iron_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item STEEL_LONG_SPEAR_BLADE = registerItems("steel_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item DIAMOND_LONG_SPEAR_BLADE = registerItems("diamond_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item ELVEN_STEEL_LONG_SPEAR_BLADE = registerItems("elven_steel_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item DARK_STEEL_LONG_SPEAR_BLADE = registerItems("dark_steel_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item NETHERITE_LONG_SPEAR_BLADE = registerItems("netherite_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item DRAGON_BONE_LONG_SPEAR_BLADE = registerItems("dragon_bone_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item PALLADIUM_LONG_SPEAR_BLADE = registerItems("palladium_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item TUNGSTEN_CARBIDE_LONG_SPEAR_BLADE = registerItems("tungsten_carbide_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item MITHRIL_LONG_SPEAR_BLADE = registerItems("mithril_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_LONG_SPEAR_BLADE = registerItems("adamantine_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_LONG_SPEAR_BLADE = registerItems("shadow_adamantine_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_DRAGON_BONE_LONG_SPEAR_BLADE = registerItems("adamantine_dragon_bone_long_spear_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_DRAGON_BONE_LONG_SPEAR_BLADE = registerItems("shadow_adamantine_dragon_bone_long_spear_blade", new Item(new Item.Settings()));
-    // Divine is a placeholder for all Divine Long Spears.
-    //public static final Item DIVINE_LONG_SPEAR_BLADE = registerItems("divine_long_spear_blade", new Item(new Item.Settings()));
+    public static final Item LONG_SPEAR_BLADE_TEMPLATE = registerItems("long_spear_blade_template", new Item(new Item.Settings()));
     // Mace Heads
-    public static final Item WOOD_MACE_HEAD = registerItems("wood_mace_head", new Item(new Item.Settings()));
-    public static final Item STONE_MACE_HEAD = registerItems("stone_mace_head", new Item(new Item.Settings()));
-    public static final Item GOLDEN_MACE_HEAD = registerItems("golden_mace_head", new Item(new Item.Settings()));
-    public static final Item SILVER_MACE_HEAD = registerItems("silver_mace_head", new Item(new Item.Settings()));
-    public static final Item COPPER_MACE_HEAD = registerItems("copper_mace_head", new Item(new Item.Settings()));
-    public static final Item BRONZE_MACE_HEAD = registerItems("bronze_mace_head", new Item(new Item.Settings()));
-    public static final Item PLATINUM_MACE_HEAD = registerItems("platinum_mace_head", new Item(new Item.Settings()));
-    public static final Item BONE_MACE_HEAD = registerItems("bone_mace_head", new Item(new Item.Settings()));
-    public static final Item IRON_MACE_HEAD = registerItems("iron_mace_head", new Item(new Item.Settings()));
-    public static final Item INFERNAL_IRON_MACE_HEAD = registerItems("infernal_iron_mace_head", new Item(new Item.Settings()));
-    public static final Item COLD_IRON_MACE_HEAD = registerItems("cold_iron_mace_head", new Item(new Item.Settings()));
-    public static final Item STEEL_MACE_HEAD = registerItems("steel_mace_head", new Item(new Item.Settings()));
-    public static final Item DIAMOND_MACE_HEAD = registerItems("diamond_mace_head", new Item(new Item.Settings()));
-    public static final Item ELVEN_STEEL_MACE_HEAD = registerItems("elven_steel_mace_head", new Item(new Item.Settings()));
-    public static final Item DARK_STEEL_MACE_HEAD = registerItems("dark_steel_mace_head", new Item(new Item.Settings()));
-    public static final Item NETHERITE_MACE_HEAD = registerItems("netherite_mace_head", new Item(new Item.Settings()));
-    public static final Item DRAGON_BONE_MACE_HEAD = registerItems("dragon_bone_mace_head", new Item(new Item.Settings()));
-    public static final Item PALLADIUM_MACE_HEAD = registerItems("palladium_mace_head", new Item(new Item.Settings()));
-    public static final Item TUNGSTEN_CARBIDE_MACE_HEAD = registerItems("tungsten_carbide_mace_head", new Item(new Item.Settings()));
-    public static final Item MITHRIL_MACE_HEAD = registerItems("mithril_mace_head", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_MACE_HEAD = registerItems("adamantine_mace_head", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_MACE_HEAD = registerItems("shadow_adamantine_mace_head", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_DRAGON_BONE_MACE_HEAD = registerItems("adamantine_dragon_bone_mace_head", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_DRAGON_BONE_MACE_HEAD = registerItems("shadow_adamantine_dragon_bone_mace_head", new Item(new Item.Settings()));
-    // Divine is a placeholder for all Divine Mace Heads.
-    //public static final Item DIVINE_MACE_HEAD = registerItems("divine_mace_head", new Item(new Item.Settings()));
+    public static final Item MACE_HEAD_TEMPLATE = registerItems("mace_head_template", new Item(new Item.Settings()));
     // Pike Blades
-    public static final Item WOOD_PIKE_BLADE = registerItems("wood_pike_blade", new Item(new Item.Settings()));
-    public static final Item STONE_PIKE_BLADE = registerItems("stone_pike_blade", new Item(new Item.Settings()));
-    public static final Item GOLDEN_PIKE_BLADE = registerItems("golden_pike_blade", new Item(new Item.Settings()));
-    public static final Item SILVER_PIKE_BLADE = registerItems("silver_pike_blade", new Item(new Item.Settings()));
-    public static final Item COPPER_PIKE_BLADE = registerItems("copper_pike_blade", new Item(new Item.Settings()));
-    public static final Item BRONZE_PIKE_BLADE = registerItems("bronze_pike_blade", new Item(new Item.Settings()));
-    public static final Item PLATINUM_PIKE_BLADE = registerItems("platinum_pike_blade", new Item(new Item.Settings()));
-    public static final Item BONE_PIKE_BLADE = registerItems("bone_pike_blade", new Item(new Item.Settings()));
-    public static final Item IRON_PIKE_BLADE = registerItems("iron_pike_blade", new Item(new Item.Settings()));
-    public static final Item INFERNAL_IRON_PIKE_BLADE = registerItems("infernal_iron_pike_blade", new Item(new Item.Settings()));
-    public static final Item COLD_IRON_PIKE_BLADE = registerItems("cold_iron_pike_blade", new Item(new Item.Settings()));
-    public static final Item STEEL_PIKE_BLADE = registerItems("steel_pike_blade", new Item(new Item.Settings()));
-    public static final Item DIAMOND_PIKE_BLADE = registerItems("diamond_pike_blade", new Item(new Item.Settings()));
-    public static final Item ELVEN_STEEL_PIKE_BLADE = registerItems("elven_steel_pike_blade", new Item(new Item.Settings()));
-    public static final Item DARK_STEEL_PIKE_BLADE = registerItems("dark_steel_pike_blade", new Item(new Item.Settings()));
-    public static final Item NETHERITE_PIKE_BLADE = registerItems("netherite_pike_blade", new Item(new Item.Settings()));
-    public static final Item DRAGON_BONE_PIKE_BLADE = registerItems("dragon_bone_pike_blade", new Item(new Item.Settings()));
-    public static final Item PALLADIUM_PIKE_BLADE = registerItems("palladium_pike_blade", new Item(new Item.Settings()));
-    public static final Item TUNGSTEN_CARBIDE_PIKE_BLADE = registerItems("tungsten_carbide_pike_blade", new Item(new Item.Settings()));
-    public static final Item MITHRIL_PIKE_BLADE = registerItems("mithril_pike_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_PIKE_BLADE = registerItems("adamantine_pike_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_PIKE_BLADE = registerItems("shadow_adamantine_pike_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_DRAGON_BONE_PIKE_BLADE = registerItems("adamantine_dragon_bone_pike_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_DRAGON_BONE_PIKE_BLADE = registerItems("shadow_adamantine_dragon_bone_pike_blade", new Item(new Item.Settings()));
-    // Divine is a placeholder for all Divine Pike Blades.
-    //public static final Item DIVINE_PIKE_BLADE = registerItems("divine_pike_blade", new Item(new Item.Settings()));
+    public static final Item PIKE_BLADE_TEMPLATE = registerItems("pike_blade_template", new Item(new Item.Settings()));
     // Scimitar Blades
-    public static final Item WOOD_SCIMITAR_BLADE = registerItems("wood_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item STONE_SCIMITAR_BLADE = registerItems("stone_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item GOLDEN_SCIMITAR_BLADE = registerItems("golden_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item SILVER_SCIMITAR_BLADE = registerItems("silver_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item COPPER_SCIMITAR_BLADE = registerItems("copper_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item BRONZE_SCIMITAR_BLADE = registerItems("bronze_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item PLATINUM_SCIMITAR_BLADE = registerItems("platinum_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item BONE_SCIMITAR_BLADE = registerItems("bone_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item IRON_SCIMITAR_BLADE = registerItems("iron_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item INFERNAL_IRON_SCIMITAR_BLADE = registerItems("infernal_iron_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item COLD_IRON_SCIMITAR_BLADE = registerItems("cold_iron_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item STEEL_SCIMITAR_BLADE = registerItems("steel_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item DIAMOND_SCIMITAR_BLADE = registerItems("diamond_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item ELVEN_STEEL_SCIMITAR_BLADE = registerItems("elven_steel_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item DARK_STEEL_SCIMITAR_BLADE = registerItems("dark_steel_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item NETHERITE_SCIMITAR_BLADE = registerItems("netherite_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item DRAGON_BONE_SCIMITAR_BLADE = registerItems("dragon_bone_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item PALLADIUM_SCIMITAR_BLADE = registerItems("palladium_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item TUNGSTEN_CARBIDE_SCIMITAR_BLADE = registerItems("tungsten_carbide_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item MITHRIL_SCIMITAR_BLADE = registerItems("mithril_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_SCIMITAR_BLADE = registerItems("adamantine_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_SCIMITAR_BLADE = registerItems("shadow_adamantine_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_DRAGON_BONE_SCIMITAR_BLADE = registerItems("adamantine_dragon_bone_scimitar_blade", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_DRAGON_BONE_SCIMITAR_BLADE = registerItems("shadow_adamantine_dragon_bone_scimitar_blade", new Item(new Item.Settings()));
-    // Divine is a placeholder for all Divine Scimitar Blades.
-    //public static final Item DIVINE_SCIMITAR_BLADE = registerItems("divine_scimitar_blade", new Item(new Item.Settings()));
+    public static final Item SCIMITAR_BLADE_TEMPLATE = registerItems("scimitar_blade_template", new Item(new Item.Settings()));
     // Scythe Blades
-
+    //  Not Needed
     // Sickle Blades
-
+    //  Not Needed
     // Spear Heads
-    public static final Item WOOD_SPEAR_HEAD = registerItems("wood_spear_head", new Item(new Item.Settings()));
-    public static final Item STONE_SPEAR_HEAD = registerItems("stone_spear_head", new Item(new Item.Settings()));
-    public static final Item GOLDEN_SPEAR_HEAD = registerItems("golden_spear_head", new Item(new Item.Settings()));
-    public static final Item SILVER_SPEAR_HEAD = registerItems("silver_spear_head", new Item(new Item.Settings()));
-    public static final Item COPPER_SPEAR_HEAD = registerItems("copper_spear_head", new Item(new Item.Settings()));
-    public static final Item BRONZE_SPEAR_HEAD = registerItems("bronze_spear_head", new Item(new Item.Settings()));
-    public static final Item PLATINUM_SPEAR_HEAD = registerItems("platinum_spear_head", new Item(new Item.Settings()));
-    public static final Item BONE_SPEAR_HEAD = registerItems("bone_spear_head", new Item(new Item.Settings()));
-    public static final Item IRON_SPEAR_HEAD = registerItems("iron_spear_head", new Item(new Item.Settings()));
-    public static final Item INFERNAL_IRON_SPEAR_HEAD = registerItems("infernal_iron_spear_head", new Item(new Item.Settings()));
-    public static final Item COLD_IRON_SPEAR_HEAD = registerItems("cold_iron_spear_head", new Item(new Item.Settings()));
-    public static final Item STEEL_SPEAR_HEAD = registerItems("steel_spear_head", new Item(new Item.Settings()));
-    public static final Item DIAMOND_SPEAR_HEAD = registerItems("diamond_spear_head", new Item(new Item.Settings()));
-    public static final Item ELVEN_STEEL_SPEAR_HEAD = registerItems("elven_steel_spear_head", new Item(new Item.Settings()));
-    public static final Item DARK_STEEL_SPEAR_HEAD = registerItems("dark_steel_spear_head", new Item(new Item.Settings()));
-    public static final Item NETHERITE_SPEAR_HEAD = registerItems("netherite_spear_head", new Item(new Item.Settings()));
-    public static final Item DRAGON_BONE_SPEAR_HEAD = registerItems("dragon_bone_spear_head", new Item(new Item.Settings()));
-    public static final Item PALLADIUM_SPEAR_HEAD = registerItems("palladium_spear_head", new Item(new Item.Settings()));
-    public static final Item TUNGSTEN_CARBIDE_SPEAR_HEAD = registerItems("tungsten_carbide_spear_head", new Item(new Item.Settings()));
-    public static final Item MITHRIL_SPEAR_HEAD = registerItems("mithril_spear_head", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_SPEAR_HEAD = registerItems("adamantine_spear_head", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_SPEAR_HEAD = registerItems("shadow_adamantine_spear_head", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_DRAGON_BONE_SPEAR_HEAD = registerItems("adamantine_dragon_bone_spear_head", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_DRAGON_BONE_SPEAR_HEAD = registerItems("shadow_adamantine_dragon_bone_spear_head", new Item(new Item.Settings()));
-    // Divine is a placeholder for all Divine Spear Heads.
-    //public static final Item DIVINE_SPEAR_HEAD = registerItems("divine_spear_head", new Item(new Item.Settings()));
+    public static final Item SPEAR_HEAD_TEMPLATE = registerItems("spear_head_template", new Item(new Item.Settings()));
     // Trident Forks
-    public static final Item WOOD_TRIDENT_FORK = registerItems("wood_trident_fork", new Item(new Item.Settings()));
-    public static final Item STONE_TRIDENT_FORK = registerItems("stone_trident_fork", new Item(new Item.Settings()));
-    public static final Item GOLDEN_TRIDENT_FORK = registerItems("golden_trident_fork", new Item(new Item.Settings()));
-    public static final Item SILVER_TRIDENT_FORK = registerItems("silver_trident_fork", new Item(new Item.Settings()));
-    public static final Item COPPER_TRIDENT_FORK = registerItems("copper_trident_fork", new Item(new Item.Settings()));
-    public static final Item BRONZE_TRIDENT_FORK = registerItems("bronze_trident_fork", new Item(new Item.Settings()));
-    public static final Item PLATINUM_TRIDENT_FORK = registerItems("platinum_trident_fork", new Item(new Item.Settings()));
-    public static final Item BONE_TRIDENT_FORK = registerItems("bone_trident_fork", new Item(new Item.Settings()));
-    public static final Item IRON_TRIDENT_FORK = registerItems("iron_trident_fork", new Item(new Item.Settings()));
-    public static final Item INFERNAL_IRON_TRIDENT_FORK = registerItems("infernal_iron_trident_fork", new Item(new Item.Settings()));
-    public static final Item COLD_IRON_TRIDENT_FORK = registerItems("cold_iron_trident_fork", new Item(new Item.Settings()));
-    public static final Item STEEL_TRIDENT_FORK = registerItems("steel_trident_fork", new Item(new Item.Settings()));
-    public static final Item DIAMOND_TRIDENT_FORK = registerItems("diamond_trident_fork", new Item(new Item.Settings()));
-    public static final Item ELVEN_STEEL_TRIDENT_FORK = registerItems("elven_steel_trident_fork", new Item(new Item.Settings()));
-    public static final Item DARK_STEEL_TRIDENT_FORK = registerItems("dark_steel_trident_fork", new Item(new Item.Settings()));
-    public static final Item NETHERITE_TRIDENT_FORK = registerItems("netherite_trident_fork", new Item(new Item.Settings()));
-    public static final Item DRAGON_BONE_TRIDENT_FORK = registerItems("dragon_bone_trident_fork", new Item(new Item.Settings()));
-    public static final Item PALLADIUM_TRIDENT_FORK = registerItems("palladium_trident_fork", new Item(new Item.Settings()));
-    public static final Item TUNGSTEN_CARBIDE_TRIDENT_FORK = registerItems("tungsten_carbide_trident_fork", new Item(new Item.Settings()));
-    public static final Item MITHRIL_TRIDENT_FORK = registerItems("mithril_trident_fork", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_TRIDENT_FORK = registerItems("adamantine_trident_fork", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_TRIDENT_FORK = registerItems("shadow_adamantine_trident_fork", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_DRAGON_BONE_TRIDENT_FORK = registerItems("adamantine_dragon_bone_trident_fork", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_DRAGON_BONE_TRIDENT_FORK = registerItems("shadow_adamantine_dragon_bone_trident_fork", new Item(new Item.Settings()));
-    // Divine is a placeholder for all Divine Trident Forks.
-    //public static final Item DIVINE_TRIDENT_FORK = registerItems("divine_trident_fork", new Item(new Item.Settings()));
+    public static final Item TRIDENT_FORK_TEMPLATE = registerItems("trident_fork_template", new Item(new Item.Settings()));
     // Warhammer Heads
-    public static final Item WOOD_WARHAMMER_HEAD = registerItems("wood_warhammer_head", new Item(new Item.Settings()));
-    public static final Item STONE_WARHAMMER_HEAD = registerItems("stone_warhammer_head", new Item(new Item.Settings()));
-    public static final Item GOLDEN_WARHAMMER_HEAD = registerItems("golden_warhammer_head", new Item(new Item.Settings()));
-    public static final Item SILVER_WARHAMMER_HEAD = registerItems("silver_warhammer_head", new Item(new Item.Settings()));
-    public static final Item COPPER_WARHAMMER_HEAD = registerItems("copper_warhammer_head", new Item(new Item.Settings()));
-    public static final Item BRONZE_WARHAMMER_HEAD = registerItems("bronze_warhammer_head", new Item(new Item.Settings()));
-    public static final Item PLATINUM_WARHAMMER_HEAD = registerItems("platinum_warhammer_head", new Item(new Item.Settings()));
-    public static final Item BONE_WARHAMMER_HEAD = registerItems("bone_warhammer_head", new Item(new Item.Settings()));
-    public static final Item IRON_WARHAMMER_HEAD = registerItems("iron_warhammer_head", new Item(new Item.Settings()));
-    public static final Item INFERNAL_IRON_WARHAMMER_HEAD = registerItems("infernal_iron_warhammer_head", new Item(new Item.Settings()));
-    public static final Item COLD_IRON_WARHAMMER_HEAD = registerItems("cold_iron_warhammer_head", new Item(new Item.Settings()));
-    public static final Item STEEL_WARHAMMER_HEAD = registerItems("steel_warhammer_head", new Item(new Item.Settings()));
-    public static final Item DIAMOND_WARHAMMER_HEAD = registerItems("diamond_warhammer_head", new Item(new Item.Settings()));
-    public static final Item ELVEN_STEEL_WARHAMMER_HEAD = registerItems("elven_steel_warhammer_head", new Item(new Item.Settings()));
-    public static final Item DARK_STEEL_WARHAMMER_HEAD = registerItems("dark_steel_warhammer_head", new Item(new Item.Settings()));
-    public static final Item NETHERITE_WARHAMMER_HEAD = registerItems("netherite_warhammer_head", new Item(new Item.Settings()));
-    public static final Item DRAGON_BONE_WARHAMMER_HEAD = registerItems("dragon_bone_warhammer_head", new Item(new Item.Settings()));
-    public static final Item PALLADIUM_WARHAMMER_HEAD = registerItems("palladium_warhammer_head", new Item(new Item.Settings()));
-    public static final Item TUNGSTEN_CARBIDE_WARHAMMER_HEAD = registerItems("tungsten_carbide_warhammer_head", new Item(new Item.Settings()));
-    public static final Item MITHRIL_WARHAMMER_HEAD = registerItems("mithril_warhammer_head", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_WARHAMMER_HEAD = registerItems("adamantine_warhammer_head", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_WARHAMMER_HEAD = registerItems("shadow_adamantine_warhammer_head", new Item(new Item.Settings()));
-    public static final Item ADAMANTINE_DRAGON_BONE_WARHAMMER_HEAD = registerItems("adamantine_dragon_bone_warhammer_head", new Item(new Item.Settings()));
-    public static final Item SHADOW_ADAMANTINE_DRAGON_BONE_WARHAMMER_HEAD = registerItems("shadow_adamantine_dragon_bone_warhammer_head", new Item(new Item.Settings()));
-    // Divine is a placeholder for all Divine Warhammer Heads.
-    //public static final Item DIVINE_WARHAMMER_HEAD = registerItems("divine_warhammer_head", new Item(new Item.Settings()));
+    public static final Item WARHAMMER_HEAD_TEMPLATE = registerItems("warhammer_head_template", new Item(new Item.Settings()));
 
 
     protected static Item registerItems(String id, Item newItem) {
