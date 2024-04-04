@@ -607,7 +607,7 @@ public class WeaponsRegistry {
     public static final SwordItem SHADOW_ADAMANTINE_DRAGON_BONE_FALCHION = registerSwordItems("shadow_adamantine_dragon_bone_falchion", new SwordItem(DragonsHoardWAToolMaterials.SHADOW_ADAMANTINE, 9, -2.3f, new Item.Settings()));
 
     /*----------------------------------------------------------------------------------------------------------------------
-    ------------------------------------------------------LONG_SPEARS--------------------------------------------------------
+    ------------------------------------------------------LONG_SPEARS-------------------------------------------------------
     ----------------------------------------------------------------------------------------------------------------------*/
     public static final SwordItem WOODEN_LONG_SPEAR = registerSwordItems("wooden_long_spear", new SwordItem(ToolMaterials.WOOD, 4, -2.7f, new Item.Settings()));
     public static final SwordItem STONE_LONG_SPEAR = registerSwordItems("stone_long_spear", new SwordItem(ToolMaterials.STONE, 4, -2.7f, new Item.Settings()));
@@ -790,7 +790,7 @@ public class WeaponsRegistry {
     // sister weapons 2 katana like blades like the ninjas from elden ring. Lots of Color saturation- yellowy. (Tamaki is color blind)
     // -------------------------------------------Solaces Set----------------------------------------------
     // ---------Eclipse----- https://docs.google.com/document/d/1d4psOBlnjd8o4wiiwG8O69ppE73nYKGnyeAWODnxnbM/edit?usp=drivesdk ---------
-    public static final SwordItem THE_ECLIPSE = registerSwordItems("the_eclipse", new SwordItem(DragonsHoardWAToolMaterials.DIVINE, 12, -3.3f, new Item.Settings().rarity(Rarity.EPIC)));
+    public static final SwordItem ECLIPSE = registerSwordItems("eclipse", new SwordItem(DragonsHoardWAToolMaterials.DIVINE, 12, -3.3f, new Item.Settings().rarity(Rarity.EPIC)));
     public static final SwordItem DAWN = registerSwordItems("dawn", new SwordItem(DragonsHoardWAToolMaterials.DIVINE, 10, -2.2f, new Item.Settings()));//Katanas need to get damage set, (whole set)
     public static final SwordItem DUSK = registerSwordItems("dusk", new SwordItem(DragonsHoardWAToolMaterials.DIVINE, 10, -2.2f, new Item.Settings()));
     // Combine both these to get The Eclipse.

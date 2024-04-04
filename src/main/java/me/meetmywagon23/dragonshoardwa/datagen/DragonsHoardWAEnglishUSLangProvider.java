@@ -857,10 +857,9 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         /*--------------------------------------------------------------------------------------------------------------
         -------------------------------------------WEAPON-TEMPLATES-----------------------------------------------------
         --------------------------------------------------------------------------------------------------------------*/
-        translationBuilder.add(ItemsRegistry.UNPATTEREND_TEMPLATE, "Unpatterend Template");
         translationBuilder.add(ItemsRegistry.BATTLEAXE_HEAD_TEMPLATE, "Battleaxe Head Template");
         translationBuilder.add(ItemsRegistry.CLAYMORE_BLADE_TEMPLATE, "Claymore Blade Template");
-        translationBuilder.add(ItemsRegistry.FALCHION_BLADE_TEMPLATE, "Falchion Head Template");
+        translationBuilder.add(ItemsRegistry.FALCHION_BLADE_TEMPLATE, "Falchion Blade Template");
         translationBuilder.add(ItemsRegistry.GLAIVE_BLADE_TEMPLATE, "Glaive Blade Template");
         translationBuilder.add(ItemsRegistry.HALBERD_BLADE_TEMPLATE, "Halberd Blade Template");
         translationBuilder.add(ItemsRegistry.GREATSWORD_BLADE_TEMPLATE, "Greatsword Blade Template");
@@ -871,6 +870,12 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(ItemsRegistry.SPEAR_HEAD_TEMPLATE, "Spear Head Template");
         translationBuilder.add(ItemsRegistry.TRIDENT_FORK_TEMPLATE, "Trident Fork Template");
         translationBuilder.add(ItemsRegistry.WARHAMMER_HEAD_TEMPLATE, "Warhammer Head Template");
+        /*--------------------------------------------------------------------------------------------------------------
+        ---------------------------------------------DIVINE-WEAPONS-----------------------------------------------------
+        --------------------------------------------------------------------------------------------------------------*/
+        translationBuilder.add(WeaponsRegistry.ECLIPSE, "Eclipse");
+        translationBuilder.add(WeaponsRegistry.DUSK, "Dusk");
+        translationBuilder.add(WeaponsRegistry.DAWN, "Dawn");
 
     }
 }

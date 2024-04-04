@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "dragonshoardwa:item/scimitar_blade_template"
+  }
+}

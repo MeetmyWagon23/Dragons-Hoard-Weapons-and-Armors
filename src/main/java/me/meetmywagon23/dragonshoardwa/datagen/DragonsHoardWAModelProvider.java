@@ -23,9 +23,9 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
-        // ---------------------------------------------------------------------------------
-        // --------------------------------Item Generators----------------------------------
-        // ---------------------------------------------------------------------------------
+        // -------------------------------------------------------------------------------------------------
+        // --------------------------------Item Generators-------------------------------------------------
+        // --------------------DO NOT REMOVE CUSTOM .json FILES IF REPLACING GEN'D ONES---------------------
 
         itemModelGenerator.register(ItemsRegistry.COPPER_COIN, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.COPPER_COIN_FIVE_STACK, Models.GENERATED);
@@ -40,7 +40,7 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ItemsRegistry.PLATINUM_COIN_FIVE_STACK, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.PLATINUM_COIN_TEN_STACK, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.LIGHT_ARMOR_MESH, Models.GENERATED);
-        // itemModelGenerator.register(ItemsRegistry.ARMOR_PLATING, Models.GENERATED); UNUSED ATM
+        // itemModelGenerator.register(ItemsRegistry.ARMOR_PLATING, Models.GENERATED); UNUSED ATM, for future Heavy armors
         itemModelGenerator.register(ItemsRegistry.BONE_SPLINTER, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.WITHER_BONE, Models.GENERATED);
         itemModelGenerator.register(ItemsRegistry.WITHER_BONE_SPLINTER, Models.GENERATED);
@@ -163,7 +163,7 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
 
         /*--------------------------------------------------------------------------------------------------------------
         ----------------------------------------------Weapon-Blades-Model-----------------------------------------------
-        --------------------------------------------------------------------------------------------------------------*/
+        ----------------------------DO NOT REMOVE CUSTOM .json FILES IF REPLACING GEN'D ONES--------------------------*/
 
 
 
@@ -242,15 +242,13 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
 
         // ---------------------------------------------------------------------------------------
         // -------------------------------Tool Model Generators-----------------------------------
-        // ---------------------------------------------------------------------------------------
+        // --------------------DO NOT REMOVE CUSTOM .json FILES IF REPLACING GEN'D ONES---------------------
 
         // Tools to be moved to here.
 
         // ---------------------------------------------------------------------------------------
         // -------------------------------Weapon Model Builders-----------------------------------
-        // Remove those that need customization like Scythes so they don't
-        // get overwritten by the data generator.
-        // ---------------------------------------------------------------------------------------
+        // --------------------DO NOT REMOVE CUSTOM .json FILES IF REPLACING GEN'D ONES---------------------
 
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_BATTLEAXE, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.ADAMANTINE_CLAYMORE, Models.HANDHELD);
@@ -755,8 +753,6 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         /*--------------------------------------------------------------------------------------------------
         ------------------------------------WEAPON-BLADES---------------------------------------------------
         --------------------------------------------------------------------------------------------------*/
-        // TEMPLATES
-        itemModelGenerator.register(ItemsRegistry.UNPATTEREND_TEMPLATE, Models.HANDHELD);
         // BATTLEAXE HEADS
         itemModelGenerator.register(ItemsRegistry.BATTLEAXE_HEAD_TEMPLATE, Models.HANDHELD);
 
@@ -801,21 +797,25 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
 
         // -------------------------------------------------------------------------------------------------
         // ---------------------------------Divine Weapons--------------------------------------------------
-        // -------------------------REMOVED AFTER GENERATION WAS COMPLETED----------------------------------
+        // --------------------DO NOT REMOVE CUSTOM .json FILES IF REPLACING GEN'D ONES---------------------
 
-        // itemModelGenerator.register(WeaponsRegistry.ATROPOS, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.ATROPOS, Models.HANDHELD);
 
         // -------------------------------------------------------------------------------------------------
         // ---------------------------------Twitch Community Skins------------------------------------------
-        // -------------------------REMOVED AFTER GENERATION WAS COMPLETED----------------------------------
+        // --------------------DO NOT REMOVE CUSTOM .json FILES IF REPLACING GEN'D ONES---------------------
+        // Solaces set
+        itemModelGenerator.register(WeaponsRegistry.ECLIPSE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DUSK, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DAWN, Models.HANDHELD);
         // Snow-Angels set
-        // itemModelGenerator.register(WeaponsRegistry.SNOWDRIFT_FROSTREAPER, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.PURITYS_FROSTFALL_SERENADE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.MALEVOLENT_ARCTIC_DESPAIR, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.SNOWDRIFT_FROSTREAPER, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.PURITYS_FROSTFALL_SERENADE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.MALEVOLENT_ARCTIC_DESPAIR, Models.HANDHELD);
         // Phoenix's Set
-        // itemModelGenerator.register(WeaponsRegistry.EMBERWING_SCORNBLADE, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.SERAPHIC_PLUMEREAVER, Models.HANDHELD);
-        // itemModelGenerator.register(WeaponsRegistry.DEMONIC_PYROFEATHER, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.EMBERWING_SCORNBLADE, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.SERAPHIC_PLUMEREAVER, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DEMONIC_PYROFEATHER, Models.HANDHELD);
         // INSPIRING_SUNFIRE This weapon was created from Codeium, nice name. May use this later.
         //  Backup Cups set
         //itemModelGenerator.register(WeaponsRegistry.CUPS_CLAYMORE, Models.HANDHELD);

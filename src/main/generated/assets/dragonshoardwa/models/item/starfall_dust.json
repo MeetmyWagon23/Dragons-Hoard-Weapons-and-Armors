@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "dragonshoardwa:item/stallfall_dust"
+    "layer0": "dragonshoardwa:item/starfall_dust"
   }
 }

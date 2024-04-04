@@ -64,9 +64,6 @@ public class ItemsRegistry {
     public static final Item ALUMINUM_INGOT = registerItems("aluminum_ingot", new Item(new Item.Settings()));
 
     // Brass (Copper + Zinc) || Chronos Note: Brass is EXTREMELY rare, naturally; unsure if you plan to spawn as an ore. Noticed that there are no Zinc items.
-    //public static final Item RAW_BRASS = registerItems("raw_brass", new Item(new Item.Settings()));
-    //public static final Item BRASS_NUGGET = registerItems("brass_nugget",  new Item(new Item.Settings()));
-    //public static final Item BRASS_INGOT = registerItems("brass_ingot", new Item(new Item.Settings()));
 
     // Bronze (Copper + Tin) || Chronos Note: Bronze is EXTREMELY rare, naturally; unsure if you plan to spawn as an ore.
     public static final Item RAW_BRONZE = registerItems("raw_bronze", new Item(new Item.Settings()));
@@ -202,7 +199,7 @@ public class ItemsRegistry {
     public static final Item PLATINUM_DUST = registerItems("platinum_dust", new Item(new Item.Settings()));
     public static final Item SHADOW_ADAMANTINE_DUST = registerItems("shadow_adamantine_dust", new Item(new Item.Settings()));
     public static final Item SILVER_DUST = registerItems("silver_dust", new Item(new Item.Settings()));
-    public static final Item STARFALL_DUST = registerItems("stallfall_dust", new Item(new Item.Settings()));
+    public static final Item STARFALL_DUST = registerItems("starfall_dust", new Item(new Item.Settings()));
     public static final Item STEEL_DUST = registerItems("steel_dust", new Item(new Item.Settings()));
     public static final Item TIN_DUST = registerItems("tin_dust", new Item(new Item.Settings()));
     public static final Item TITANIUM_DUST = registerItems("titanium_dust", new Item(new Item.Settings()));
@@ -212,7 +209,6 @@ public class ItemsRegistry {
     --------------------------------------------------WEAPON_TEMPLATES--------------------------------------------------
     ------------------------------------------------------------------------------------------------------------------*/
     // Templates
-    public static final Item UNPATTEREND_TEMPLATE = registerItems("unpatterend_template", new Item(new Item.Settings()));
     // Battle Axe Heads
     public static final Item BATTLEAXE_HEAD_TEMPLATE = registerItems("battleaxe_head_template", new Item(new Item.Settings()));
     // Claymores

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "dragonshoardwa:item/glaive_blade_template"
+  }
+}
