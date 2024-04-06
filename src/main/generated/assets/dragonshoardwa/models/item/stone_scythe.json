@@ -1,6 +1,37 @@
 {
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "dragonshoardwa:item/stone_scythe"
-  }
+	"credit": "Made with Blockbench, By DmWagon",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "dragonshoardwa:item/stone_scythe"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-45, -90, 0],
+			"translation": [0, 10, 1.25],
+			"scale": [1.5, 1.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [0, 10, 1.25],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [5, -100, 40],
+			"translation": [2, 8, 1],
+			"scale": [1.25, 1.25, 0.65]
+		},
+		"firstperson_lefthand": {
+			"rotation": [5, 100, -40],
+			"translation": [2, 8, 1],
+			"scale": [1.25, 1.25, 0.65]
+		},
+		"ground": {
+			"translation": [0, 8, 0],
+			"scale": [1.2, 1.2, 0.60]
+		},
+		"gui": {
+			"rotation": [180, 180, 180],
+			"translation": [0.75, 0, 0]
+		}
+	}
 }

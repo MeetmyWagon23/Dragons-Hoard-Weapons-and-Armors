@@ -408,7 +408,7 @@ public class DragonsHoardWAModelProvider extends FabricModelProvider {
         itemModelGenerator.register(WeaponsRegistry.DIAMOND_TRIDENT, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DIAMOND_WARHAMMER, Models.HANDHELD);
 
-        itemModelGenerator.register(WeaponsRegistry.DRAGON_CLAW, Models.HANDHELD);
+        itemModelGenerator.register(WeaponsRegistry.DRAGON_CLAWS, Models.HANDHELD);
         itemModelGenerator.register(WeaponsRegistry.DRAGON_SCALE_CAESTUS, Models.HANDHELD);
 
         itemModelGenerator.register(WeaponsRegistry.DRAGON_BONE_BATTLEAXE, Models.HANDHELD);

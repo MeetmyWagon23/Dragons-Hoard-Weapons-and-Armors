@@ -30,6 +30,7 @@ public class ItemsRegistry {
     public static final Item WITHER_BONE_SPLINTER = registerItems("wither_bone_splinter", new Item(new Item.Settings()));
     public static final Item BONE_BLIGHT = registerItems("bone_blight", new Item(new Item.Settings())); //only turn poppy's into wither rose. all else dead bush.
     public static final Item SKELETON_RIBCAGE = registerItems("skeleton_ribcage", new Item(new Item.Settings().rarity(Rarity.UNCOMMON)));
+    // Withered Ribcage & Ribcage. rename later.
     public static final Item WITHER_SKELETON_RIBCAGE = registerItems("wither_skeleton_ribcage", new Item(new Item.Settings().rarity(Rarity.UNCOMMON)));
     public static final Item SKELETON_PELVIS = registerItems("skeleton_pelvis", new Item(new Item.Settings().rarity(Rarity.UNCOMMON)));
     public static final Item WITHER_SKELETON_PELVIS = registerItems("wither_skeleton_pelvis", new Item(new Item.Settings().rarity(Rarity.UNCOMMON)));

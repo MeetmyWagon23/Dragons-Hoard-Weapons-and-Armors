@@ -647,6 +647,7 @@ public class WeaponsRegistry {
     ---------------------------------------------------Caestus--------------------------------------------------------------
     ----------------------------------------------------------------------------------------------------------------------*/
     public static final SwordItem LEATHER_CAESTUS = registerSwordItems("leather_caestus", new SwordItem(ToolMaterials.WOOD, 1, -1.5f, new Item.Settings()));
+    //Remove the dragon scale caestus in the future.
     public static final SwordItem DRAGON_SCALE_CAESTUS = registerSwordItems("dragon_scale_caestus", new SwordItem(DragonsHoardWAToolMaterials.DRAGON_BONE, 5, -1.5f, new Item.Settings()));
     //Change the 2 below to Dragon Scale in the future.
     public static final SwordItem ADAMANTINE_DRAGON_BONE_CAESTUS = registerSwordItems("adamantine_dragon_bone_caestus", new SwordItem(DragonsHoardWAToolMaterials.ADAMANTINE, 7, -1.5f, new Item.Settings()));
@@ -678,7 +679,7 @@ public class WeaponsRegistry {
     ---------------------------------------------------CLAWS----------------------------------------------------------------
     ----------------------------------------------------------------------------------------------------------------------*/
     // public static final SwordItem GLACIAL_CLAW = registerSwordItems("glacial_claw", new SwordItem(DragonsHoardToolMaterials.GLACIAL, 4, -1.5f, new Item.Settings()));
-    public static final SwordItem DRAGON_CLAW = registerSwordItems("dragon_claw", new SwordItem(DragonsHoardWAToolMaterials.DRAGON_BONE, 5, -1.5f, new Item.Settings()));
+    public static final SwordItem DRAGON_CLAWS = registerSwordItems("dragon_claws", new SwordItem(DragonsHoardWAToolMaterials.DRAGON_BONE, 5, -1.5f, new Item.Settings()));
 
     /*----------------------------------------------------------------------------------------------------------------------
     ---------------------------------------------------Crossbow-------------------------------------------------------------

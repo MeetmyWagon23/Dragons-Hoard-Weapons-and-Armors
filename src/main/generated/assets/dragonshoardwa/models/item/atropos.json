@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench, By DmWagon",
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "dragonshoardwa:item/wooden_scythe"
+		"layer0": "dragonshoardwa:item/atropos"
 	},
 	"display": {
 		"thirdperson_righthand": {

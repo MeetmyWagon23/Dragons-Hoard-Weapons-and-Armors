@@ -3,8 +3,8 @@
 	"parent": "caesti",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "dragonshoardwa:item/leather_caestus",
-		"particle": "dragonshoardwa:item/leather_caestus"
+		"0": "dragonshoardwa:item/dragon_claws",
+		"particle": "dragonshoardwa:item/dragon_claws"
 	},
 	"elements": [
 		{

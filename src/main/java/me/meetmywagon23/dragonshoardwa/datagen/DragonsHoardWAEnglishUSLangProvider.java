@@ -403,7 +403,7 @@ public class DragonsHoardWAEnglishUSLangProvider extends FabricLanguageProvider 
         translationBuilder.add(WeaponsRegistry.DRAGON_BONE_TRIDENT, "Dragon Bone Trident");
         translationBuilder.add(WeaponsRegistry.DRAGON_BONE_WARHAMMER, "Dragon Bone Warhammer");
 
-        translationBuilder.add(WeaponsRegistry.DRAGON_CLAW, "Dragon Claw");
+        translationBuilder.add(WeaponsRegistry.DRAGON_CLAWS, "Dragon Claws");
         translationBuilder.add(WeaponsRegistry.DRAGON_SCALE_CAESTUS, "Dragon Scale Caestus");
 
         translationBuilder.add(ToolsRegistry.ELVEN_STEEL_PICKAXE, "Elven Steel Pickaxe");
